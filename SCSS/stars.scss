@@ -26,14 +26,17 @@ body{
             left: 50%;
             top: 50%;
             transform: translate(-50%, -50%);
-            font-size: 30px;
+            font-size: 70px;
+            font-family: 'Courier New', Courier, monospace;
+            color: rgb(96, 255, 255);
         }
 
         .moon{
             width: 80px;
             height: 80px;
+            // background-color: rgb(209, 248, 248);
             border-radius: 50%;
-            box-shadow: 15px 15px 0 0 rgb(176, 216, 0);
+            box-shadow: 15px 15px 2px 1px rgb(176, 216, 0);
             position: absolute;
             top: 0%;
             left: 10%
@@ -46,13 +49,13 @@ body{
                     opacity: 0.6;
                 }
                 100%{
-                    transform: translate(random(100)* 1px ,500px);
+                    transform: translate(random(200px)* 1px ,400px);
                     opacity: 0;
                 }
             }
             .star:nth-child(#{$i}){
                 $rd : random(3)*2px;
-                opacity: 0;
+                opacity: 1;
                 position: absolute;
                 top: -5px;
                 left: random(100)*1%;

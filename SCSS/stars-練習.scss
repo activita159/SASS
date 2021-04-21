@@ -1,0 +1,79 @@
+$bg_color : #222;
+$blue_dark:rgb(108, 95, 153);
+$blue_light:rgb(93,105,214);
+
+@mixin size($w, $h, $bdrs:0){
+    width: $w;
+    height: $h;
+    border-radius: $bdrs;
+}
+@mixin flex($j, $a){
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+*{
+    box-sizing: border-box;
+}
+body{
+    padding: 0;
+    margin: 0;
+    @include size(100%, 100vh);
+    @include flex(center,center);
+    background-color: $bg_color;
+
+    .container{
+        @include size(800px, 500px, 20px);
+        background:linear-gradient(100deg, $blue_dark, $blue_light);
+        position: relative;
+        overflow: hidden;
+        
+        .title{
+            font-size: 50px;
+            font-family: 'Courier New', Courier, monospace;
+            color: azure;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+        .moon{
+            @include size(80px, 80px, 50%);
+            // background-color: beige;
+            box-shadow: 15px 15px 1px 1px rgb(201, 233, 59);
+            position: absolute;   
+            top: 5%;
+            left: 5%;   
+        }
+        @for $i from 1 to 31 {
+
+            @keyframes gogo {
+                0%{
+                    opacity: 0.7;
+                }
+
+                100%{
+                    opacity: 0;
+                    transform: translate(random(200px)*1px,400px);
+                }
+            }
+
+
+
+            .star:nth-child(#{$i}){
+                position: absolute;
+                left:random(500px)*1px;
+                top:-10px;
+                $starSize :random(4)*1.5px;
+                @include size($starSize, $starSize, 50%);
+                background-color: rgb(random(255),random(255),random(255));
+                opacity: 0;
+
+                animation: gogo random(5)*4s ease random(5)*1s infinite;
+            }
+
+        }
+    }
+}
+
+
