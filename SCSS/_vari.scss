@@ -1,0 +1,24 @@
+$bg_color: #222;
+$blue_dark:rgb(48, 48, 109);
+$blue_light: rgb(67, 67, 150);
+
+$font_h1: 2rem;
+
+@mixin size($w, $h, $bdrs:0){
+    width: $w;
+    height: $h;
+    border-radius: $bdrs;
+}
+
+@mixin flex($j, $a){
+    display: flex;
+    justify-content: $j;
+    align-items: $a;
+}
+
+// @mixin font($fz, $fw, $lh:normal, $ls:normal){
+//     font-size: $fz;
+//     font-weight: $fw;
+//     line-height: $lh;
+//     letter-spacing: $ls;
+// }
