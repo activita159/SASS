@@ -13,16 +13,17 @@
 
 <body>
     <!-- Swiper -->
-    <div class="container">
-
+    <div class="container" style="width: 70%;margin: 0 auto;">
         <div class="swiper-container">
             <div class="swiper-wrapper">
-                <div class="swiper-slide"><img src="./img/11.jpg" alt=""></div>
-                <div class="swiper-slide"><img src="./img/22.jpg" alt=""></div>
-    
+                <div class="swiper-slide"><img src="./img/11.jpg" width="100%" alt=""></div>
+                <div class="swiper-slide"><img src="./img/22.jpg" width="100%" alt=""></div>
+                
             </div>
             <!-- Add Pagination -->
-            <div class="swiper-pagination"></div>
+            <div class="swiper-pagination">
+
+            </div>
             <!-- Add Arrows -->
             <div class="swiper-button-next"></div>
             <div class="swiper-button-prev"></div>
@@ -33,23 +34,41 @@
 
     <!-- Initialize Swiper -->
     <script>
+        var allSlide = document.querySelectorAll('.swiper-slide');
+        
         var swiper = new Swiper('.swiper-container', {
-            
-            loop:true,
+
+            loop: true,
 
             autoplay: {
-            delay: 2500,
-            disableOnInteraction: false,  //碰觸後，自動輪播也不會停止  默認為true ，true:碰觸後，自動輪播停止
+                delay: 2500,
+                disableOnInteraction: true,  //false:碰觸後，自動輪播也不會停止  默認為true ，true:碰觸後，自動輪播停止
             },
+
             
+
             pagination: {
                 el: '.swiper-pagination',
+                renderBullet: function (index, className) {
+                    if(index != allSlide.length-1){
+                        return '<span class="' + className + '"></span>'
+                    }
+                    else{
+                        return '<span class="' + className + '"></span>' +
+                            '<button class="btn"></button>' +
+                            '<span class="pause">暫停投影片</span>' ;
+                    }
+                },
             },
             navigation: {
                 nextEl: '.swiper-button-next',
                 prevEl: '.swiper-button-prev',
             },
         });
+        var btn = document.querySelector('.btn');
+        btn.addEventListener('')
+        
+         
     </script>
 
 

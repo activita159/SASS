@@ -58,8 +58,8 @@ body .container .moon {
   }
   100% {
     opacity: 0;
-    -webkit-transform: translate(49px, 400px);
-            transform: translate(49px, 400px);
+    -webkit-transform: translate(158px, 400px);
+            transform: translate(158px, 400px);
   }
 }
 
@@ -69,19 +69,67 @@ body .container .moon {
   }
   100% {
     opacity: 0;
-    -webkit-transform: translate(49px, 400px);
-            transform: translate(49px, 400px);
+    -webkit-transform: translate(158px, 400px);
+            transform: translate(158px, 400px);
   }
 }
 
 body .container .star:nth-child(1) {
   position: absolute;
-  left: 335px;
+  left: 418px;
   top: -10px;
-  width: 6px;
-  height: 6px;
+  width: 1.5px;
+  height: 1.5px;
   border-radius: 50%;
-  background-color: #d89f80;
+  background-color: #e995e3;
+  opacity: 0;
+  -webkit-animation: gogo 8s ease 5s infinite;
+          animation: gogo 8s ease 5s infinite;
+}
+
+@keyframes gogo {
+  0% {
+    opacity: 0.7;
+  }
+  100% {
+    opacity: 0;
+    -webkit-transform: translate(163px, 400px);
+            transform: translate(163px, 400px);
+  }
+}
+
+body .container .star:nth-child(2) {
+  position: absolute;
+  left: 225px;
+  top: -10px;
+  width: 3px;
+  height: 3px;
+  border-radius: 50%;
+  background-color: #86b16f;
+  opacity: 0;
+  -webkit-animation: gogo 8s ease 1s infinite;
+          animation: gogo 8s ease 1s infinite;
+}
+
+@keyframes gogo {
+  0% {
+    opacity: 0.7;
+  }
+  100% {
+    opacity: 0;
+    -webkit-transform: translate(127px, 400px);
+            transform: translate(127px, 400px);
+  }
+}
+
+body .container .star:nth-child(3) {
+  position: absolute;
+  left: 59px;
+  top: -10px;
+  width: 3px;
+  height: 3px;
+  border-radius: 50%;
+  background-color: #e59a33;
   opacity: 0;
   -webkit-animation: gogo 4s ease 1s infinite;
           animation: gogo 4s ease 1s infinite;
@@ -93,19 +141,67 @@ body .container .star:nth-child(1) {
   }
   100% {
     opacity: 0;
-    -webkit-transform: translate(90px, 400px);
-            transform: translate(90px, 400px);
+    -webkit-transform: translate(199px, 400px);
+            transform: translate(199px, 400px);
   }
 }
 
-body .container .star:nth-child(2) {
+body .container .star:nth-child(4) {
   position: absolute;
-  left: 434px;
+  left: 442px;
   top: -10px;
   width: 1.5px;
   height: 1.5px;
   border-radius: 50%;
-  background-color: #a47161;
+  background-color: #1e557e;
+  opacity: 0;
+  -webkit-animation: gogo 8s ease 3s infinite;
+          animation: gogo 8s ease 3s infinite;
+}
+
+@keyframes gogo {
+  0% {
+    opacity: 0.7;
+  }
+  100% {
+    opacity: 0;
+    -webkit-transform: translate(114px, 400px);
+            transform: translate(114px, 400px);
+  }
+}
+
+body .container .star:nth-child(5) {
+  position: absolute;
+  left: 480px;
+  top: -10px;
+  width: 3px;
+  height: 3px;
+  border-radius: 50%;
+  background-color: #bc28f3;
+  opacity: 0;
+  -webkit-animation: gogo 16s ease 1s infinite;
+          animation: gogo 16s ease 1s infinite;
+}
+
+@keyframes gogo {
+  0% {
+    opacity: 0.7;
+  }
+  100% {
+    opacity: 0;
+    -webkit-transform: translate(27px, 400px);
+            transform: translate(27px, 400px);
+  }
+}
+
+body .container .star:nth-child(6) {
+  position: absolute;
+  left: 174px;
+  top: -10px;
+  width: 1.5px;
+  height: 1.5px;
+  border-radius: 50%;
+  background-color: #f76131;
   opacity: 0;
   -webkit-animation: gogo 20s ease 1s infinite;
           animation: gogo 20s ease 1s infinite;
@@ -117,118 +213,22 @@ body .container .star:nth-child(2) {
   }
   100% {
     opacity: 0;
-    -webkit-transform: translate(147px, 400px);
-            transform: translate(147px, 400px);
-  }
-}
-
-body .container .star:nth-child(3) {
-  position: absolute;
-  left: 164px;
-  top: -10px;
-  width: 6px;
-  height: 6px;
-  border-radius: 50%;
-  background-color: #c77608;
-  opacity: 0;
-  -webkit-animation: gogo 20s ease 2s infinite;
-          animation: gogo 20s ease 2s infinite;
-}
-
-@keyframes gogo {
-  0% {
-    opacity: 0.7;
-  }
-  100% {
-    opacity: 0;
-    -webkit-transform: translate(168px, 400px);
-            transform: translate(168px, 400px);
-  }
-}
-
-body .container .star:nth-child(4) {
-  position: absolute;
-  left: 432px;
-  top: -10px;
-  width: 1.5px;
-  height: 1.5px;
-  border-radius: 50%;
-  background-color: #dc4ced;
-  opacity: 0;
-  -webkit-animation: gogo 8s ease 2s infinite;
-          animation: gogo 8s ease 2s infinite;
-}
-
-@keyframes gogo {
-  0% {
-    opacity: 0.7;
-  }
-  100% {
-    opacity: 0;
-    -webkit-transform: translate(90px, 400px);
-            transform: translate(90px, 400px);
-  }
-}
-
-body .container .star:nth-child(5) {
-  position: absolute;
-  left: 168px;
-  top: -10px;
-  width: 1.5px;
-  height: 1.5px;
-  border-radius: 50%;
-  background-color: #734351;
-  opacity: 0;
-  -webkit-animation: gogo 16s ease 2s infinite;
-          animation: gogo 16s ease 2s infinite;
-}
-
-@keyframes gogo {
-  0% {
-    opacity: 0.7;
-  }
-  100% {
-    opacity: 0;
-    -webkit-transform: translate(137px, 400px);
-            transform: translate(137px, 400px);
-  }
-}
-
-body .container .star:nth-child(6) {
-  position: absolute;
-  left: 43px;
-  top: -10px;
-  width: 3px;
-  height: 3px;
-  border-radius: 50%;
-  background-color: #3490e9;
-  opacity: 0;
-  -webkit-animation: gogo 4s ease 2s infinite;
-          animation: gogo 4s ease 2s infinite;
-}
-
-@keyframes gogo {
-  0% {
-    opacity: 0.7;
-  }
-  100% {
-    opacity: 0;
-    -webkit-transform: translate(30px, 400px);
-            transform: translate(30px, 400px);
+    -webkit-transform: translate(161px, 400px);
+            transform: translate(161px, 400px);
   }
 }
 
 body .container .star:nth-child(7) {
   position: absolute;
-  left: 411px;
+  left: 458px;
   top: -10px;
-  width: 4.5px;
-  height: 4.5px;
+  width: 1.5px;
+  height: 1.5px;
   border-radius: 50%;
-  background-color: #705389;
+  background-color: #da20ec;
   opacity: 0;
-  -webkit-animation: gogo 12s ease 3s infinite;
-          animation: gogo 12s ease 3s infinite;
+  -webkit-animation: gogo 4s ease 4s infinite;
+          animation: gogo 4s ease 4s infinite;
 }
 
 @keyframes gogo {
@@ -237,22 +237,22 @@ body .container .star:nth-child(7) {
   }
   100% {
     opacity: 0;
-    -webkit-transform: translate(133px, 400px);
-            transform: translate(133px, 400px);
+    -webkit-transform: translate(94px, 400px);
+            transform: translate(94px, 400px);
   }
 }
 
 body .container .star:nth-child(8) {
   position: absolute;
-  left: 407px;
+  left: 38px;
   top: -10px;
   width: 1.5px;
   height: 1.5px;
   border-radius: 50%;
-  background-color: #c11f33;
+  background-color: #f80786;
   opacity: 0;
-  -webkit-animation: gogo 12s ease 5s infinite;
-          animation: gogo 12s ease 5s infinite;
+  -webkit-animation: gogo 20s ease 1s infinite;
+          animation: gogo 20s ease 1s infinite;
 }
 
 @keyframes gogo {
@@ -261,22 +261,22 @@ body .container .star:nth-child(8) {
   }
   100% {
     opacity: 0;
-    -webkit-transform: translate(159px, 400px);
-            transform: translate(159px, 400px);
+    -webkit-transform: translate(66px, 400px);
+            transform: translate(66px, 400px);
   }
 }
 
 body .container .star:nth-child(9) {
   position: absolute;
-  left: 229px;
+  left: 5px;
   top: -10px;
-  width: 4.5px;
-  height: 4.5px;
+  width: 1.5px;
+  height: 1.5px;
   border-radius: 50%;
-  background-color: #0c73cf;
+  background-color: #82e93d;
   opacity: 0;
-  -webkit-animation: gogo 4s ease 4s infinite;
-          animation: gogo 4s ease 4s infinite;
+  -webkit-animation: gogo 20s ease 1s infinite;
+          animation: gogo 20s ease 1s infinite;
 }
 
 @keyframes gogo {
@@ -285,115 +285,19 @@ body .container .star:nth-child(9) {
   }
   100% {
     opacity: 0;
-    -webkit-transform: translate(41px, 400px);
-            transform: translate(41px, 400px);
+    -webkit-transform: translate(5px, 400px);
+            transform: translate(5px, 400px);
   }
 }
 
 body .container .star:nth-child(10) {
   position: absolute;
-  left: 189px;
+  left: 151px;
   top: -10px;
-  width: 4.5px;
-  height: 4.5px;
+  width: 1.5px;
+  height: 1.5px;
   border-radius: 50%;
-  background-color: #be197c;
-  opacity: 0;
-  -webkit-animation: gogo 20s ease 2s infinite;
-          animation: gogo 20s ease 2s infinite;
-}
-
-@keyframes gogo {
-  0% {
-    opacity: 0.7;
-  }
-  100% {
-    opacity: 0;
-    -webkit-transform: translate(153px, 400px);
-            transform: translate(153px, 400px);
-  }
-}
-
-body .container .star:nth-child(11) {
-  position: absolute;
-  left: 268px;
-  top: -10px;
-  width: 6px;
-  height: 6px;
-  border-radius: 50%;
-  background-color: #689feb;
-  opacity: 0;
-  -webkit-animation: gogo 20s ease 4s infinite;
-          animation: gogo 20s ease 4s infinite;
-}
-
-@keyframes gogo {
-  0% {
-    opacity: 0.7;
-  }
-  100% {
-    opacity: 0;
-    -webkit-transform: translate(183px, 400px);
-            transform: translate(183px, 400px);
-  }
-}
-
-body .container .star:nth-child(12) {
-  position: absolute;
-  left: 24px;
-  top: -10px;
-  width: 6px;
-  height: 6px;
-  border-radius: 50%;
-  background-color: #73ee1a;
-  opacity: 0;
-  -webkit-animation: gogo 4s ease 4s infinite;
-          animation: gogo 4s ease 4s infinite;
-}
-
-@keyframes gogo {
-  0% {
-    opacity: 0.7;
-  }
-  100% {
-    opacity: 0;
-    -webkit-transform: translate(170px, 400px);
-            transform: translate(170px, 400px);
-  }
-}
-
-body .container .star:nth-child(13) {
-  position: absolute;
-  left: 344px;
-  top: -10px;
-  width: 3px;
-  height: 3px;
-  border-radius: 50%;
-  background-color: #fd3866;
-  opacity: 0;
-  -webkit-animation: gogo 16s ease 3s infinite;
-          animation: gogo 16s ease 3s infinite;
-}
-
-@keyframes gogo {
-  0% {
-    opacity: 0.7;
-  }
-  100% {
-    opacity: 0;
-    -webkit-transform: translate(2px, 400px);
-            transform: translate(2px, 400px);
-  }
-}
-
-body .container .star:nth-child(14) {
-  position: absolute;
-  left: 79px;
-  top: -10px;
-  width: 3px;
-  height: 3px;
-  border-radius: 50%;
-  background-color: #b4e02b;
+  background-color: #8a5474;
   opacity: 0;
   -webkit-animation: gogo 16s ease 2s infinite;
           animation: gogo 16s ease 2s infinite;
@@ -405,67 +309,43 @@ body .container .star:nth-child(14) {
   }
   100% {
     opacity: 0;
-    -webkit-transform: translate(143px, 400px);
-            transform: translate(143px, 400px);
+    -webkit-transform: translate(117px, 400px);
+            transform: translate(117px, 400px);
   }
 }
 
-body .container .star:nth-child(15) {
+body .container .star:nth-child(11) {
   position: absolute;
-  left: 227px;
-  top: -10px;
-  width: 4.5px;
-  height: 4.5px;
-  border-radius: 50%;
-  background-color: #c55978;
-  opacity: 0;
-  -webkit-animation: gogo 12s ease 3s infinite;
-          animation: gogo 12s ease 3s infinite;
-}
-
-@keyframes gogo {
-  0% {
-    opacity: 0.7;
-  }
-  100% {
-    opacity: 0;
-    -webkit-transform: translate(17px, 400px);
-            transform: translate(17px, 400px);
-  }
-}
-
-body .container .star:nth-child(16) {
-  position: absolute;
-  left: 25px;
-  top: -10px;
-  width: 3px;
-  height: 3px;
-  border-radius: 50%;
-  background-color: #3c47f5;
-  opacity: 0;
-  -webkit-animation: gogo 4s ease 5s infinite;
-          animation: gogo 4s ease 5s infinite;
-}
-
-@keyframes gogo {
-  0% {
-    opacity: 0.7;
-  }
-  100% {
-    opacity: 0;
-    -webkit-transform: translate(157px, 400px);
-            transform: translate(157px, 400px);
-  }
-}
-
-body .container .star:nth-child(17) {
-  position: absolute;
-  left: 162px;
+  left: 146px;
   top: -10px;
   width: 6px;
   height: 6px;
   border-radius: 50%;
-  background-color: #12fc8d;
+  background-color: #bb6f6a;
+  opacity: 0;
+  -webkit-animation: gogo 8s ease 5s infinite;
+          animation: gogo 8s ease 5s infinite;
+}
+
+@keyframes gogo {
+  0% {
+    opacity: 0.7;
+  }
+  100% {
+    opacity: 0;
+    -webkit-transform: translate(194px, 400px);
+            transform: translate(194px, 400px);
+  }
+}
+
+body .container .star:nth-child(12) {
+  position: absolute;
+  left: 60px;
+  top: -10px;
+  width: 1.5px;
+  height: 1.5px;
+  border-radius: 50%;
+  background-color: #331999;
   opacity: 0;
   -webkit-animation: gogo 20s ease 3s infinite;
           animation: gogo 20s ease 3s infinite;
@@ -477,67 +357,19 @@ body .container .star:nth-child(17) {
   }
   100% {
     opacity: 0;
-    -webkit-transform: translate(60px, 400px);
-            transform: translate(60px, 400px);
+    -webkit-transform: translate(22px, 400px);
+            transform: translate(22px, 400px);
   }
 }
 
-body .container .star:nth-child(18) {
+body .container .star:nth-child(13) {
   position: absolute;
-  left: 499px;
+  left: 18px;
   top: -10px;
-  width: 6px;
-  height: 6px;
+  width: 4.5px;
+  height: 4.5px;
   border-radius: 50%;
-  background-color: #e61ca3;
-  opacity: 0;
-  -webkit-animation: gogo 4s ease 4s infinite;
-          animation: gogo 4s ease 4s infinite;
-}
-
-@keyframes gogo {
-  0% {
-    opacity: 0.7;
-  }
-  100% {
-    opacity: 0;
-    -webkit-transform: translate(47px, 400px);
-            transform: translate(47px, 400px);
-  }
-}
-
-body .container .star:nth-child(19) {
-  position: absolute;
-  left: 403px;
-  top: -10px;
-  width: 1.5px;
-  height: 1.5px;
-  border-radius: 50%;
-  background-color: #e25042;
-  opacity: 0;
-  -webkit-animation: gogo 12s ease 4s infinite;
-          animation: gogo 12s ease 4s infinite;
-}
-
-@keyframes gogo {
-  0% {
-    opacity: 0.7;
-  }
-  100% {
-    opacity: 0;
-    -webkit-transform: translate(128px, 400px);
-            transform: translate(128px, 400px);
-  }
-}
-
-body .container .star:nth-child(20) {
-  position: absolute;
-  left: 404px;
-  top: -10px;
-  width: 3px;
-  height: 3px;
-  border-radius: 50%;
-  background-color: #431d70;
+  background-color: #2b9a21;
   opacity: 0;
   -webkit-animation: gogo 16s ease 3s infinite;
           animation: gogo 16s ease 3s infinite;
@@ -549,22 +381,22 @@ body .container .star:nth-child(20) {
   }
   100% {
     opacity: 0;
-    -webkit-transform: translate(79px, 400px);
-            transform: translate(79px, 400px);
+    -webkit-transform: translate(155px, 400px);
+            transform: translate(155px, 400px);
   }
 }
 
-body .container .star:nth-child(21) {
+body .container .star:nth-child(14) {
   position: absolute;
-  left: 415px;
+  left: 434px;
   top: -10px;
   width: 4.5px;
   height: 4.5px;
   border-radius: 50%;
-  background-color: #d1da26;
+  background-color: #368f63;
   opacity: 0;
-  -webkit-animation: gogo 20s ease 5s infinite;
-          animation: gogo 20s ease 5s infinite;
+  -webkit-animation: gogo 12s ease 4s infinite;
+          animation: gogo 12s ease 4s infinite;
 }
 
 @keyframes gogo {
@@ -573,22 +405,190 @@ body .container .star:nth-child(21) {
   }
   100% {
     opacity: 0;
-    -webkit-transform: translate(154px, 400px);
-            transform: translate(154px, 400px);
+    -webkit-transform: translate(57px, 400px);
+            transform: translate(57px, 400px);
+  }
+}
+
+body .container .star:nth-child(15) {
+  position: absolute;
+  left: 198px;
+  top: -10px;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background-color: #534fd2;
+  opacity: 0;
+  -webkit-animation: gogo 12s ease 4s infinite;
+          animation: gogo 12s ease 4s infinite;
+}
+
+@keyframes gogo {
+  0% {
+    opacity: 0.7;
+  }
+  100% {
+    opacity: 0;
+    -webkit-transform: translate(48px, 400px);
+            transform: translate(48px, 400px);
+  }
+}
+
+body .container .star:nth-child(16) {
+  position: absolute;
+  left: 434px;
+  top: -10px;
+  width: 3px;
+  height: 3px;
+  border-radius: 50%;
+  background-color: #1de435;
+  opacity: 0;
+  -webkit-animation: gogo 16s ease 3s infinite;
+          animation: gogo 16s ease 3s infinite;
+}
+
+@keyframes gogo {
+  0% {
+    opacity: 0.7;
+  }
+  100% {
+    opacity: 0;
+    -webkit-transform: translate(129px, 400px);
+            transform: translate(129px, 400px);
+  }
+}
+
+body .container .star:nth-child(17) {
+  position: absolute;
+  left: 407px;
+  top: -10px;
+  width: 4.5px;
+  height: 4.5px;
+  border-radius: 50%;
+  background-color: #4c4f33;
+  opacity: 0;
+  -webkit-animation: gogo 8s ease 5s infinite;
+          animation: gogo 8s ease 5s infinite;
+}
+
+@keyframes gogo {
+  0% {
+    opacity: 0.7;
+  }
+  100% {
+    opacity: 0;
+    -webkit-transform: translate(126px, 400px);
+            transform: translate(126px, 400px);
+  }
+}
+
+body .container .star:nth-child(18) {
+  position: absolute;
+  left: 287px;
+  top: -10px;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background-color: #05d9b3;
+  opacity: 0;
+  -webkit-animation: gogo 12s ease 1s infinite;
+          animation: gogo 12s ease 1s infinite;
+}
+
+@keyframes gogo {
+  0% {
+    opacity: 0.7;
+  }
+  100% {
+    opacity: 0;
+    -webkit-transform: translate(55px, 400px);
+            transform: translate(55px, 400px);
+  }
+}
+
+body .container .star:nth-child(19) {
+  position: absolute;
+  left: 215px;
+  top: -10px;
+  width: 3px;
+  height: 3px;
+  border-radius: 50%;
+  background-color: #db36f4;
+  opacity: 0;
+  -webkit-animation: gogo 20s ease 1s infinite;
+          animation: gogo 20s ease 1s infinite;
+}
+
+@keyframes gogo {
+  0% {
+    opacity: 0.7;
+  }
+  100% {
+    opacity: 0;
+    -webkit-transform: translate(163px, 400px);
+            transform: translate(163px, 400px);
+  }
+}
+
+body .container .star:nth-child(20) {
+  position: absolute;
+  left: 436px;
+  top: -10px;
+  width: 4.5px;
+  height: 4.5px;
+  border-radius: 50%;
+  background-color: #cfe485;
+  opacity: 0;
+  -webkit-animation: gogo 8s ease 5s infinite;
+          animation: gogo 8s ease 5s infinite;
+}
+
+@keyframes gogo {
+  0% {
+    opacity: 0.7;
+  }
+  100% {
+    opacity: 0;
+    -webkit-transform: translate(109px, 400px);
+            transform: translate(109px, 400px);
+  }
+}
+
+body .container .star:nth-child(21) {
+  position: absolute;
+  left: 395px;
+  top: -10px;
+  width: 3px;
+  height: 3px;
+  border-radius: 50%;
+  background-color: #714143;
+  opacity: 0;
+  -webkit-animation: gogo 20s ease 4s infinite;
+          animation: gogo 20s ease 4s infinite;
+}
+
+@keyframes gogo {
+  0% {
+    opacity: 0.7;
+  }
+  100% {
+    opacity: 0;
+    -webkit-transform: translate(18px, 400px);
+            transform: translate(18px, 400px);
   }
 }
 
 body .container .star:nth-child(22) {
   position: absolute;
-  left: 95px;
+  left: 155px;
   top: -10px;
   width: 6px;
   height: 6px;
   border-radius: 50%;
-  background-color: #7a25d7;
+  background-color: #015c93;
   opacity: 0;
-  -webkit-animation: gogo 4s ease 2s infinite;
-          animation: gogo 4s ease 2s infinite;
+  -webkit-animation: gogo 20s ease 4s infinite;
+          animation: gogo 20s ease 4s infinite;
 }
 
 @keyframes gogo {
@@ -604,15 +604,15 @@ body .container .star:nth-child(22) {
 
 body .container .star:nth-child(23) {
   position: absolute;
-  left: 342px;
+  left: 57px;
   top: -10px;
-  width: 4.5px;
-  height: 4.5px;
+  width: 1.5px;
+  height: 1.5px;
   border-radius: 50%;
-  background-color: #401865;
+  background-color: #660f8d;
   opacity: 0;
-  -webkit-animation: gogo 4s ease 5s infinite;
-          animation: gogo 4s ease 5s infinite;
+  -webkit-animation: gogo 8s ease 5s infinite;
+          animation: gogo 8s ease 5s infinite;
 }
 
 @keyframes gogo {
@@ -621,19 +621,19 @@ body .container .star:nth-child(23) {
   }
   100% {
     opacity: 0;
-    -webkit-transform: translate(157px, 400px);
-            transform: translate(157px, 400px);
+    -webkit-transform: translate(58px, 400px);
+            transform: translate(58px, 400px);
   }
 }
 
 body .container .star:nth-child(24) {
   position: absolute;
-  left: 332px;
+  left: 93px;
   top: -10px;
-  width: 4.5px;
-  height: 4.5px;
+  width: 3px;
+  height: 3px;
   border-radius: 50%;
-  background-color: #b1c529;
+  background-color: #3f4182;
   opacity: 0;
   -webkit-animation: gogo 4s ease 5s infinite;
           animation: gogo 4s ease 5s infinite;
@@ -645,22 +645,22 @@ body .container .star:nth-child(24) {
   }
   100% {
     opacity: 0;
-    -webkit-transform: translate(22px, 400px);
-            transform: translate(22px, 400px);
+    -webkit-transform: translate(94px, 400px);
+            transform: translate(94px, 400px);
   }
 }
 
 body .container .star:nth-child(25) {
   position: absolute;
-  left: 234px;
+  left: 21px;
   top: -10px;
-  width: 4.5px;
-  height: 4.5px;
+  width: 6px;
+  height: 6px;
   border-radius: 50%;
-  background-color: #4e5eac;
+  background-color: #99d9b3;
   opacity: 0;
-  -webkit-animation: gogo 20s ease 5s infinite;
-          animation: gogo 20s ease 5s infinite;
+  -webkit-animation: gogo 8s ease 1s infinite;
+          animation: gogo 8s ease 1s infinite;
 }
 
 @keyframes gogo {
@@ -669,43 +669,19 @@ body .container .star:nth-child(25) {
   }
   100% {
     opacity: 0;
-    -webkit-transform: translate(129px, 400px);
-            transform: translate(129px, 400px);
+    -webkit-transform: translate(59px, 400px);
+            transform: translate(59px, 400px);
   }
 }
 
 body .container .star:nth-child(26) {
   position: absolute;
-  left: 338px;
+  left: 225px;
   top: -10px;
-  width: 6px;
-  height: 6px;
+  width: 1.5px;
+  height: 1.5px;
   border-radius: 50%;
-  background-color: #4db9ae;
-  opacity: 0;
-  -webkit-animation: gogo 20s ease 2s infinite;
-          animation: gogo 20s ease 2s infinite;
-}
-
-@keyframes gogo {
-  0% {
-    opacity: 0.7;
-  }
-  100% {
-    opacity: 0;
-    -webkit-transform: translate(187px, 400px);
-            transform: translate(187px, 400px);
-  }
-}
-
-body .container .star:nth-child(27) {
-  position: absolute;
-  left: 489px;
-  top: -10px;
-  width: 3px;
-  height: 3px;
-  border-radius: 50%;
-  background-color: #9d7191;
+  background-color: #5f5dfb;
   opacity: 0;
   -webkit-animation: gogo 4s ease 4s infinite;
           animation: gogo 4s ease 4s infinite;
@@ -717,22 +693,22 @@ body .container .star:nth-child(27) {
   }
   100% {
     opacity: 0;
-    -webkit-transform: translate(54px, 400px);
-            transform: translate(54px, 400px);
+    -webkit-transform: translate(52px, 400px);
+            transform: translate(52px, 400px);
   }
 }
 
-body .container .star:nth-child(28) {
+body .container .star:nth-child(27) {
   position: absolute;
-  left: 494px;
+  left: 333px;
   top: -10px;
-  width: 1.5px;
-  height: 1.5px;
+  width: 6px;
+  height: 6px;
   border-radius: 50%;
-  background-color: #b27448;
+  background-color: #46b0c8;
   opacity: 0;
-  -webkit-animation: gogo 4s ease 3s infinite;
-          animation: gogo 4s ease 3s infinite;
+  -webkit-animation: gogo 16s ease 4s infinite;
+          animation: gogo 16s ease 4s infinite;
 }
 
 @keyframes gogo {
@@ -741,19 +717,19 @@ body .container .star:nth-child(28) {
   }
   100% {
     opacity: 0;
-    -webkit-transform: translate(141px, 400px);
-            transform: translate(141px, 400px);
+    -webkit-transform: translate(166px, 400px);
+            transform: translate(166px, 400px);
   }
 }
 
-body .container .star:nth-child(29) {
+body .container .star:nth-child(28) {
   position: absolute;
-  left: 377px;
+  left: 354px;
   top: -10px;
   width: 3px;
   height: 3px;
   border-radius: 50%;
-  background-color: #571f1a;
+  background-color: #1ce763;
   opacity: 0;
   -webkit-animation: gogo 8s ease 3s infinite;
           animation: gogo 8s ease 3s infinite;
@@ -765,21 +741,45 @@ body .container .star:nth-child(29) {
   }
   100% {
     opacity: 0;
-    -webkit-transform: translate(188px, 400px);
-            transform: translate(188px, 400px);
+    -webkit-transform: translate(15px, 400px);
+            transform: translate(15px, 400px);
+  }
+}
+
+body .container .star:nth-child(29) {
+  position: absolute;
+  left: 363px;
+  top: -10px;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background-color: #a34c2f;
+  opacity: 0;
+  -webkit-animation: gogo 20s ease 4s infinite;
+          animation: gogo 20s ease 4s infinite;
+}
+
+@keyframes gogo {
+  0% {
+    opacity: 0.7;
+  }
+  100% {
+    opacity: 0;
+    -webkit-transform: translate(80px, 400px);
+            transform: translate(80px, 400px);
   }
 }
 
 body .container .star:nth-child(30) {
   position: absolute;
-  left: 363px;
+  left: 267px;
   top: -10px;
-  width: 3px;
-  height: 3px;
+  width: 6px;
+  height: 6px;
   border-radius: 50%;
-  background-color: #61fefa;
+  background-color: #07fb67;
   opacity: 0;
-  -webkit-animation: gogo 4s ease 4s infinite;
-          animation: gogo 4s ease 4s infinite;
+  -webkit-animation: gogo 12s ease 1s infinite;
+          animation: gogo 12s ease 1s infinite;
 }
 /*# sourceMappingURL=stars-練習.css.map */

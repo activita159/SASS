@@ -13,12 +13,40 @@ body {
   padding: 0;
 }
 
-.swiper-container {
+body .swiper-container {
   width: 100%;
   height: 100%;
 }
 
-.swiper-slide {
+body .swiper-container:hover .swiper-button-prev,
+body .swiper-container:hover .swiper-button-next {
+  opacity: 1;
+}
+
+body .swiper-container .swiper-pagination {
+  position: relative;
+  top: -30px;
+}
+
+body .swiper-container .swiper-pagination .btn {
+  width: 30px;
+  height: 30px;
+}
+
+body .swiper-container .swiper-pagination .btn:hover ~ .pause {
+  display: block;
+}
+
+body .swiper-container .swiper-pagination .pause {
+  position: absolute;
+  top: 50%;
+  left: 55%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  display: none;
+}
+
+body .swiper-container .swiper-slide {
   text-align: center;
   font-size: 18px;
   background: #fff;
@@ -27,10 +55,15 @@ body {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body .swiper-container .swiper-button-prev,
+body .swiper-container .swiper-button-next {
+  opacity: 0;
 }
 /*# sourceMappingURL=microsoft.css.map */
