@@ -18,7 +18,7 @@
             <div class="swiper-wrapper">
                 <div class="swiper-slide"><img src="./img/11.jpg" width="100%" alt=""></div>
                 <div class="swiper-slide"><img src="./img/22.jpg" width="100%" alt=""></div>
-                
+
             </div>
             <!-- Add Pagination -->
             <div class="swiper-pagination">
@@ -35,8 +35,9 @@
     <!-- Initialize Swiper -->
     <script>
         var allSlide = document.querySelectorAll('.swiper-slide');
-        
+
         var swiper = new Swiper('.swiper-container', {
+
 
             loop: true,
 
@@ -45,18 +46,19 @@
                 disableOnInteraction: true,  //false:碰觸後，自動輪播也不會停止  默認為true ，true:碰觸後，自動輪播停止
             },
 
-            
+
 
             pagination: {
                 el: '.swiper-pagination',
                 renderBullet: function (index, className) {
-                    if(index != allSlide.length-1){
+                    if (index != allSlide.length - 1) {
                         return '<span class="' + className + '"></span>'
                     }
-                    else{
+                    else {
                         return '<span class="' + className + '"></span>' +
-                            '<button class="btn"></button>' +
-                            '<span class="pause">暫停投影片</span>' ;
+                            '<button class="btn">p</button>' +
+                            '<span class="pause">暫停投影片</span>' + 
+                            '<span class="click"></span>';
                     }
                 },
             },
@@ -66,9 +68,23 @@
             },
         });
         var btn = document.querySelector('.btn');
-        btn.addEventListener('')
-        
-         
+        var pause = document.querySelector('.pause');
+        var qq = document.querySelector('.swiper-container');
+        console.log(qq);
+        console.log(swiper);
+        btn.addEventListener('click', function () {
+            
+            if (swiper.autoplay.running){
+                swiper.autoplay.stop();
+                pause.innerHTML = '開始投影片';
+            }
+            else{
+                swiper.autoplay.start();
+                pause.innerHTML = '暫停投影片';
+            }
+        })
+
+
     </script>
 
 

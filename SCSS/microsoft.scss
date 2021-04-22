@@ -32,18 +32,16 @@ body {
       .btn{
         width: 30px;
         height: 30px;
+        margin-right: 1em;
+
         &:hover{          
           ~.pause{
-            display: block;
+            visibility:visible;
           }
         }
       }
       .pause{
-        position: absolute;
-        top: 50%;
-        left: 55%;
-        transform: translateY(-50%);
-        display: none;
+        visibility: hidden;
       }
     }  
 

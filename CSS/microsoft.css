@@ -31,19 +31,15 @@ body .swiper-container .swiper-pagination {
 body .swiper-container .swiper-pagination .btn {
   width: 30px;
   height: 30px;
+  margin-right: 1em;
 }
 
 body .swiper-container .swiper-pagination .btn:hover ~ .pause {
-  display: block;
+  visibility: visible;
 }
 
 body .swiper-container .swiper-pagination .pause {
-  position: absolute;
-  top: 50%;
-  left: 55%;
-  -webkit-transform: translateY(-50%);
-          transform: translateY(-50%);
-  display: none;
+  visibility: hidden;
 }
 
 body .swiper-container .swiper-slide {
