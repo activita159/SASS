@@ -58,8 +58,8 @@ body .container .moon {
   }
   100% {
     opacity: 0;
-    -webkit-transform: translate(187px, 400px);
-            transform: translate(187px, 400px);
+    -webkit-transform: translate(118px, 400px);
+            transform: translate(118px, 400px);
   }
 }
 
@@ -69,19 +69,19 @@ body .container .moon {
   }
   100% {
     opacity: 0;
-    -webkit-transform: translate(187px, 400px);
-            transform: translate(187px, 400px);
+    -webkit-transform: translate(118px, 400px);
+            transform: translate(118px, 400px);
   }
 }
 
 body .container .star:nth-child(1) {
   position: absolute;
-  left: 289px;
+  left: 369px;
   top: -10px;
   width: 6px;
   height: 6px;
   border-radius: 50%;
-  background-color: #a9b213;
+  background-color: #c73eb1;
   opacity: 0;
   -webkit-animation: gogo 16s ease 1s infinite;
           animation: gogo 16s ease 1s infinite;
@@ -93,22 +93,22 @@ body .container .star:nth-child(1) {
   }
   100% {
     opacity: 0;
-    -webkit-transform: translate(81px, 400px);
-            transform: translate(81px, 400px);
+    -webkit-transform: translate(132px, 400px);
+            transform: translate(132px, 400px);
   }
 }
 
 body .container .star:nth-child(2) {
   position: absolute;
-  left: 413px;
+  left: 342px;
   top: -10px;
   width: 3px;
   height: 3px;
   border-radius: 50%;
-  background-color: #2ccf66;
+  background-color: #b75f71;
   opacity: 0;
-  -webkit-animation: gogo 4s ease 4s infinite;
-          animation: gogo 4s ease 4s infinite;
+  -webkit-animation: gogo 16s ease 2s infinite;
+          animation: gogo 16s ease 2s infinite;
 }
 
 @keyframes gogo {
@@ -117,19 +117,307 @@ body .container .star:nth-child(2) {
   }
   100% {
     opacity: 0;
-    -webkit-transform: translate(119px, 400px);
-            transform: translate(119px, 400px);
+    -webkit-transform: translate(52px, 400px);
+            transform: translate(52px, 400px);
   }
 }
 
 body .container .star:nth-child(3) {
   position: absolute;
-  left: 390px;
+  left: 162px;
+  top: -10px;
+  width: 1.5px;
+  height: 1.5px;
+  border-radius: 50%;
+  background-color: #9b2dd8;
+  opacity: 0;
+  -webkit-animation: gogo 20s ease 4s infinite;
+          animation: gogo 20s ease 4s infinite;
+}
+
+@keyframes gogo {
+  0% {
+    opacity: 0.7;
+  }
+  100% {
+    opacity: 0;
+    -webkit-transform: translate(164px, 400px);
+            transform: translate(164px, 400px);
+  }
+}
+
+body .container .star:nth-child(4) {
+  position: absolute;
+  left: 406px;
+  top: -10px;
+  width: 4.5px;
+  height: 4.5px;
+  border-radius: 50%;
+  background-color: #9bd0b9;
+  opacity: 0;
+  -webkit-animation: gogo 20s ease 2s infinite;
+          animation: gogo 20s ease 2s infinite;
+}
+
+@keyframes gogo {
+  0% {
+    opacity: 0.7;
+  }
+  100% {
+    opacity: 0;
+    -webkit-transform: translate(124px, 400px);
+            transform: translate(124px, 400px);
+  }
+}
+
+body .container .star:nth-child(5) {
+  position: absolute;
+  left: 214px;
+  top: -10px;
+  width: 1.5px;
+  height: 1.5px;
+  border-radius: 50%;
+  background-color: #26f2b0;
+  opacity: 0;
+  -webkit-animation: gogo 12s ease 3s infinite;
+          animation: gogo 12s ease 3s infinite;
+}
+
+@keyframes gogo {
+  0% {
+    opacity: 0.7;
+  }
+  100% {
+    opacity: 0;
+    -webkit-transform: translate(120px, 400px);
+            transform: translate(120px, 400px);
+  }
+}
+
+body .container .star:nth-child(6) {
+  position: absolute;
+  left: 418px;
+  top: -10px;
+  width: 4.5px;
+  height: 4.5px;
+  border-radius: 50%;
+  background-color: #6799ba;
+  opacity: 0;
+  -webkit-animation: gogo 8s ease 1s infinite;
+          animation: gogo 8s ease 1s infinite;
+}
+
+@keyframes gogo {
+  0% {
+    opacity: 0.7;
+  }
+  100% {
+    opacity: 0;
+    -webkit-transform: translate(83px, 400px);
+            transform: translate(83px, 400px);
+  }
+}
+
+body .container .star:nth-child(7) {
+  position: absolute;
+  left: 474px;
+  top: -10px;
+  width: 3px;
+  height: 3px;
+  border-radius: 50%;
+  background-color: #20504a;
+  opacity: 0;
+  -webkit-animation: gogo 4s ease 1s infinite;
+          animation: gogo 4s ease 1s infinite;
+}
+
+@keyframes gogo {
+  0% {
+    opacity: 0.7;
+  }
+  100% {
+    opacity: 0;
+    -webkit-transform: translate(20px, 400px);
+            transform: translate(20px, 400px);
+  }
+}
+
+body .container .star:nth-child(8) {
+  position: absolute;
+  left: 260px;
+  top: -10px;
+  width: 3px;
+  height: 3px;
+  border-radius: 50%;
+  background-color: #d5ddc4;
+  opacity: 0;
+  -webkit-animation: gogo 8s ease 1s infinite;
+          animation: gogo 8s ease 1s infinite;
+}
+
+@keyframes gogo {
+  0% {
+    opacity: 0.7;
+  }
+  100% {
+    opacity: 0;
+    -webkit-transform: translate(75px, 400px);
+            transform: translate(75px, 400px);
+  }
+}
+
+body .container .star:nth-child(9) {
+  position: absolute;
+  left: 131px;
   top: -10px;
   width: 6px;
   height: 6px;
   border-radius: 50%;
-  background-color: #118e4d;
+  background-color: #7efd2e;
+  opacity: 0;
+  -webkit-animation: gogo 16s ease 4s infinite;
+          animation: gogo 16s ease 4s infinite;
+}
+
+@keyframes gogo {
+  0% {
+    opacity: 0.7;
+  }
+  100% {
+    opacity: 0;
+    -webkit-transform: translate(157px, 400px);
+            transform: translate(157px, 400px);
+  }
+}
+
+body .container .star:nth-child(10) {
+  position: absolute;
+  left: 162px;
+  top: -10px;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background-color: #b283f5;
+  opacity: 0;
+  -webkit-animation: gogo 8s ease 3s infinite;
+          animation: gogo 8s ease 3s infinite;
+}
+
+@keyframes gogo {
+  0% {
+    opacity: 0.7;
+  }
+  100% {
+    opacity: 0;
+    -webkit-transform: translate(46px, 400px);
+            transform: translate(46px, 400px);
+  }
+}
+
+body .container .star:nth-child(11) {
+  position: absolute;
+  left: 61px;
+  top: -10px;
+  width: 1.5px;
+  height: 1.5px;
+  border-radius: 50%;
+  background-color: #ca5a6c;
+  opacity: 0;
+  -webkit-animation: gogo 12s ease 4s infinite;
+          animation: gogo 12s ease 4s infinite;
+}
+
+@keyframes gogo {
+  0% {
+    opacity: 0.7;
+  }
+  100% {
+    opacity: 0;
+    -webkit-transform: translate(148px, 400px);
+            transform: translate(148px, 400px);
+  }
+}
+
+body .container .star:nth-child(12) {
+  position: absolute;
+  left: 168px;
+  top: -10px;
+  width: 1.5px;
+  height: 1.5px;
+  border-radius: 50%;
+  background-color: #af1cbf;
+  opacity: 0;
+  -webkit-animation: gogo 8s ease 1s infinite;
+          animation: gogo 8s ease 1s infinite;
+}
+
+@keyframes gogo {
+  0% {
+    opacity: 0.7;
+  }
+  100% {
+    opacity: 0;
+    -webkit-transform: translate(72px, 400px);
+            transform: translate(72px, 400px);
+  }
+}
+
+body .container .star:nth-child(13) {
+  position: absolute;
+  left: 346px;
+  top: -10px;
+  width: 1.5px;
+  height: 1.5px;
+  border-radius: 50%;
+  background-color: #7c44c0;
+  opacity: 0;
+  -webkit-animation: gogo 4s ease 2s infinite;
+          animation: gogo 4s ease 2s infinite;
+}
+
+@keyframes gogo {
+  0% {
+    opacity: 0.7;
+  }
+  100% {
+    opacity: 0;
+    -webkit-transform: translate(195px, 400px);
+            transform: translate(195px, 400px);
+  }
+}
+
+body .container .star:nth-child(14) {
+  position: absolute;
+  left: 368px;
+  top: -10px;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background-color: #e33f79;
+  opacity: 0;
+  -webkit-animation: gogo 8s ease 2s infinite;
+          animation: gogo 8s ease 2s infinite;
+}
+
+@keyframes gogo {
+  0% {
+    opacity: 0.7;
+  }
+  100% {
+    opacity: 0;
+    -webkit-transform: translate(12px, 400px);
+            transform: translate(12px, 400px);
+  }
+}
+
+body .container .star:nth-child(15) {
+  position: absolute;
+  left: 275px;
+  top: -10px;
+  width: 3px;
+  height: 3px;
+  border-radius: 50%;
+  background-color: #34c38c;
   opacity: 0;
   -webkit-animation: gogo 16s ease 3s infinite;
           animation: gogo 16s ease 3s infinite;
@@ -141,19 +429,283 @@ body .container .star:nth-child(3) {
   }
   100% {
     opacity: 0;
-    -webkit-transform: translate(33px, 400px);
-            transform: translate(33px, 400px);
+    -webkit-transform: translate(125px, 400px);
+            transform: translate(125px, 400px);
   }
 }
 
-body .container .star:nth-child(4) {
+body .container .star:nth-child(16) {
   position: absolute;
-  left: 340px;
+  left: 64px;
+  top: -10px;
+  width: 3px;
+  height: 3px;
+  border-radius: 50%;
+  background-color: #b73879;
+  opacity: 0;
+  -webkit-animation: gogo 20s ease 3s infinite;
+          animation: gogo 20s ease 3s infinite;
+}
+
+@keyframes gogo {
+  0% {
+    opacity: 0.7;
+  }
+  100% {
+    opacity: 0;
+    -webkit-transform: translate(76px, 400px);
+            transform: translate(76px, 400px);
+  }
+}
+
+body .container .star:nth-child(17) {
+  position: absolute;
+  left: 102px;
   top: -10px;
   width: 4.5px;
   height: 4.5px;
   border-radius: 50%;
-  background-color: #b7330d;
+  background-color: #2ff302;
+  opacity: 0;
+  -webkit-animation: gogo 8s ease 3s infinite;
+          animation: gogo 8s ease 3s infinite;
+}
+
+@keyframes gogo {
+  0% {
+    opacity: 0.7;
+  }
+  100% {
+    opacity: 0;
+    -webkit-transform: translate(122px, 400px);
+            transform: translate(122px, 400px);
+  }
+}
+
+body .container .star:nth-child(18) {
+  position: absolute;
+  left: 371px;
+  top: -10px;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background-color: #85fdbd;
+  opacity: 0;
+  -webkit-animation: gogo 12s ease 1s infinite;
+          animation: gogo 12s ease 1s infinite;
+}
+
+@keyframes gogo {
+  0% {
+    opacity: 0.7;
+  }
+  100% {
+    opacity: 0;
+    -webkit-transform: translate(4px, 400px);
+            transform: translate(4px, 400px);
+  }
+}
+
+body .container .star:nth-child(19) {
+  position: absolute;
+  left: 130px;
+  top: -10px;
+  width: 1.5px;
+  height: 1.5px;
+  border-radius: 50%;
+  background-color: #2cc29a;
+  opacity: 0;
+  -webkit-animation: gogo 8s ease 2s infinite;
+          animation: gogo 8s ease 2s infinite;
+}
+
+@keyframes gogo {
+  0% {
+    opacity: 0.7;
+  }
+  100% {
+    opacity: 0;
+    -webkit-transform: translate(34px, 400px);
+            transform: translate(34px, 400px);
+  }
+}
+
+body .container .star:nth-child(20) {
+  position: absolute;
+  left: 471px;
+  top: -10px;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background-color: #261b38;
+  opacity: 0;
+  -webkit-animation: gogo 4s ease 1s infinite;
+          animation: gogo 4s ease 1s infinite;
+}
+
+@keyframes gogo {
+  0% {
+    opacity: 0.7;
+  }
+  100% {
+    opacity: 0;
+    -webkit-transform: translate(15px, 400px);
+            transform: translate(15px, 400px);
+  }
+}
+
+body .container .star:nth-child(21) {
+  position: absolute;
+  left: 395px;
+  top: -10px;
+  width: 1.5px;
+  height: 1.5px;
+  border-radius: 50%;
+  background-color: #9991c1;
+  opacity: 0;
+  -webkit-animation: gogo 20s ease 5s infinite;
+          animation: gogo 20s ease 5s infinite;
+}
+
+@keyframes gogo {
+  0% {
+    opacity: 0.7;
+  }
+  100% {
+    opacity: 0;
+    -webkit-transform: translate(66px, 400px);
+            transform: translate(66px, 400px);
+  }
+}
+
+body .container .star:nth-child(22) {
+  position: absolute;
+  left: 342px;
+  top: -10px;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background-color: #e4993f;
+  opacity: 0;
+  -webkit-animation: gogo 20s ease 3s infinite;
+          animation: gogo 20s ease 3s infinite;
+}
+
+@keyframes gogo {
+  0% {
+    opacity: 0.7;
+  }
+  100% {
+    opacity: 0;
+    -webkit-transform: translate(135px, 400px);
+            transform: translate(135px, 400px);
+  }
+}
+
+body .container .star:nth-child(23) {
+  position: absolute;
+  left: 387px;
+  top: -10px;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background-color: #875fdf;
+  opacity: 0;
+  -webkit-animation: gogo 12s ease 4s infinite;
+          animation: gogo 12s ease 4s infinite;
+}
+
+@keyframes gogo {
+  0% {
+    opacity: 0.7;
+  }
+  100% {
+    opacity: 0;
+    -webkit-transform: translate(166px, 400px);
+            transform: translate(166px, 400px);
+  }
+}
+
+body .container .star:nth-child(24) {
+  position: absolute;
+  left: 277px;
+  top: -10px;
+  width: 1.5px;
+  height: 1.5px;
+  border-radius: 50%;
+  background-color: #ef1285;
+  opacity: 0;
+  -webkit-animation: gogo 4s ease 1s infinite;
+          animation: gogo 4s ease 1s infinite;
+}
+
+@keyframes gogo {
+  0% {
+    opacity: 0.7;
+  }
+  100% {
+    opacity: 0;
+    -webkit-transform: translate(94px, 400px);
+            transform: translate(94px, 400px);
+  }
+}
+
+body .container .star:nth-child(25) {
+  position: absolute;
+  left: 263px;
+  top: -10px;
+  width: 1.5px;
+  height: 1.5px;
+  border-radius: 50%;
+  background-color: #32068f;
+  opacity: 0;
+  -webkit-animation: gogo 12s ease 4s infinite;
+          animation: gogo 12s ease 4s infinite;
+}
+
+@keyframes gogo {
+  0% {
+    opacity: 0.7;
+  }
+  100% {
+    opacity: 0;
+    -webkit-transform: translate(68px, 400px);
+            transform: translate(68px, 400px);
+  }
+}
+
+body .container .star:nth-child(26) {
+  position: absolute;
+  left: 331px;
+  top: -10px;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background-color: #f8bac7;
+  opacity: 0;
+  -webkit-animation: gogo 16s ease 5s infinite;
+          animation: gogo 16s ease 5s infinite;
+}
+
+@keyframes gogo {
+  0% {
+    opacity: 0.7;
+  }
+  100% {
+    opacity: 0;
+    -webkit-transform: translate(182px, 400px);
+            transform: translate(182px, 400px);
+  }
+}
+
+body .container .star:nth-child(27) {
+  position: absolute;
+  left: 220px;
+  top: -10px;
+  width: 3px;
+  height: 3px;
+  border-radius: 50%;
+  background-color: #e649d1;
   opacity: 0;
   -webkit-animation: gogo 4s ease 2s infinite;
           animation: gogo 4s ease 2s infinite;
@@ -170,65 +722,17 @@ body .container .star:nth-child(4) {
   }
 }
 
-body .container .star:nth-child(5) {
+body .container .star:nth-child(28) {
   position: absolute;
-  left: 441px;
+  left: 109px;
   top: -10px;
-  width: 4.5px;
-  height: 4.5px;
+  width: 1.5px;
+  height: 1.5px;
   border-radius: 50%;
-  background-color: #c46be4;
+  background-color: #be6e69;
   opacity: 0;
-  -webkit-animation: gogo 16s ease 3s infinite;
-          animation: gogo 16s ease 3s infinite;
-}
-
-@keyframes gogo {
-  0% {
-    opacity: 0.7;
-  }
-  100% {
-    opacity: 0;
-    -webkit-transform: translate(47px, 400px);
-            transform: translate(47px, 400px);
-  }
-}
-
-body .container .star:nth-child(6) {
-  position: absolute;
-  left: 297px;
-  top: -10px;
-  width: 6px;
-  height: 6px;
-  border-radius: 50%;
-  background-color: #d1e2fa;
-  opacity: 0;
-  -webkit-animation: gogo 20s ease 1s infinite;
-          animation: gogo 20s ease 1s infinite;
-}
-
-@keyframes gogo {
-  0% {
-    opacity: 0.7;
-  }
-  100% {
-    opacity: 0;
-    -webkit-transform: translate(149px, 400px);
-            transform: translate(149px, 400px);
-  }
-}
-
-body .container .star:nth-child(7) {
-  position: absolute;
-  left: 443px;
-  top: -10px;
-  width: 4.5px;
-  height: 4.5px;
-  border-radius: 50%;
-  background-color: #b7a157;
-  opacity: 0;
-  -webkit-animation: gogo 4s ease 4s infinite;
-          animation: gogo 4s ease 4s infinite;
+  -webkit-animation: gogo 20s ease 4s infinite;
+          animation: gogo 20s ease 4s infinite;
 }
 
 @keyframes gogo {
@@ -242,521 +746,17 @@ body .container .star:nth-child(7) {
   }
 }
 
-body .container .star:nth-child(8) {
-  position: absolute;
-  left: 122px;
-  top: -10px;
-  width: 6px;
-  height: 6px;
-  border-radius: 50%;
-  background-color: #195e9c;
-  opacity: 0;
-  -webkit-animation: gogo 12s ease 4s infinite;
-          animation: gogo 12s ease 4s infinite;
-}
-
-@keyframes gogo {
-  0% {
-    opacity: 0.7;
-  }
-  100% {
-    opacity: 0;
-    -webkit-transform: translate(58px, 400px);
-            transform: translate(58px, 400px);
-  }
-}
-
-body .container .star:nth-child(9) {
-  position: absolute;
-  left: 2px;
-  top: -10px;
-  width: 3px;
-  height: 3px;
-  border-radius: 50%;
-  background-color: #4c9e3a;
-  opacity: 0;
-  -webkit-animation: gogo 12s ease 2s infinite;
-          animation: gogo 12s ease 2s infinite;
-}
-
-@keyframes gogo {
-  0% {
-    opacity: 0.7;
-  }
-  100% {
-    opacity: 0;
-    -webkit-transform: translate(169px, 400px);
-            transform: translate(169px, 400px);
-  }
-}
-
-body .container .star:nth-child(10) {
-  position: absolute;
-  left: 212px;
-  top: -10px;
-  width: 3px;
-  height: 3px;
-  border-radius: 50%;
-  background-color: #174e2a;
-  opacity: 0;
-  -webkit-animation: gogo 16s ease 1s infinite;
-          animation: gogo 16s ease 1s infinite;
-}
-
-@keyframes gogo {
-  0% {
-    opacity: 0.7;
-  }
-  100% {
-    opacity: 0;
-    -webkit-transform: translate(13px, 400px);
-            transform: translate(13px, 400px);
-  }
-}
-
-body .container .star:nth-child(11) {
-  position: absolute;
-  left: 44px;
-  top: -10px;
-  width: 3px;
-  height: 3px;
-  border-radius: 50%;
-  background-color: #34ae26;
-  opacity: 0;
-  -webkit-animation: gogo 20s ease 5s infinite;
-          animation: gogo 20s ease 5s infinite;
-}
-
-@keyframes gogo {
-  0% {
-    opacity: 0.7;
-  }
-  100% {
-    opacity: 0;
-    -webkit-transform: translate(73px, 400px);
-            transform: translate(73px, 400px);
-  }
-}
-
-body .container .star:nth-child(12) {
-  position: absolute;
-  left: 366px;
-  top: -10px;
-  width: 6px;
-  height: 6px;
-  border-radius: 50%;
-  background-color: #569e14;
-  opacity: 0;
-  -webkit-animation: gogo 4s ease 2s infinite;
-          animation: gogo 4s ease 2s infinite;
-}
-
-@keyframes gogo {
-  0% {
-    opacity: 0.7;
-  }
-  100% {
-    opacity: 0;
-    -webkit-transform: translate(9px, 400px);
-            transform: translate(9px, 400px);
-  }
-}
-
-body .container .star:nth-child(13) {
-  position: absolute;
-  left: 52px;
-  top: -10px;
-  width: 3px;
-  height: 3px;
-  border-radius: 50%;
-  background-color: #4c8724;
-  opacity: 0;
-  -webkit-animation: gogo 20s ease 4s infinite;
-          animation: gogo 20s ease 4s infinite;
-}
-
-@keyframes gogo {
-  0% {
-    opacity: 0.7;
-  }
-  100% {
-    opacity: 0;
-    -webkit-transform: translate(85px, 400px);
-            transform: translate(85px, 400px);
-  }
-}
-
-body .container .star:nth-child(14) {
-  position: absolute;
-  left: 140px;
-  top: -10px;
-  width: 1.5px;
-  height: 1.5px;
-  border-radius: 50%;
-  background-color: #0fd18f;
-  opacity: 0;
-  -webkit-animation: gogo 16s ease 1s infinite;
-          animation: gogo 16s ease 1s infinite;
-}
-
-@keyframes gogo {
-  0% {
-    opacity: 0.7;
-  }
-  100% {
-    opacity: 0;
-    -webkit-transform: translate(137px, 400px);
-            transform: translate(137px, 400px);
-  }
-}
-
-body .container .star:nth-child(15) {
-  position: absolute;
-  left: 468px;
-  top: -10px;
-  width: 6px;
-  height: 6px;
-  border-radius: 50%;
-  background-color: #ed3b8b;
-  opacity: 0;
-  -webkit-animation: gogo 8s ease 5s infinite;
-          animation: gogo 8s ease 5s infinite;
-}
-
-@keyframes gogo {
-  0% {
-    opacity: 0.7;
-  }
-  100% {
-    opacity: 0;
-    -webkit-transform: translate(100px, 400px);
-            transform: translate(100px, 400px);
-  }
-}
-
-body .container .star:nth-child(16) {
-  position: absolute;
-  left: 8px;
-  top: -10px;
-  width: 6px;
-  height: 6px;
-  border-radius: 50%;
-  background-color: #67d883;
-  opacity: 0;
-  -webkit-animation: gogo 8s ease 4s infinite;
-          animation: gogo 8s ease 4s infinite;
-}
-
-@keyframes gogo {
-  0% {
-    opacity: 0.7;
-  }
-  100% {
-    opacity: 0;
-    -webkit-transform: translate(170px, 400px);
-            transform: translate(170px, 400px);
-  }
-}
-
-body .container .star:nth-child(17) {
-  position: absolute;
-  left: 18px;
-  top: -10px;
-  width: 6px;
-  height: 6px;
-  border-radius: 50%;
-  background-color: #6b385d;
-  opacity: 0;
-  -webkit-animation: gogo 16s ease 2s infinite;
-          animation: gogo 16s ease 2s infinite;
-}
-
-@keyframes gogo {
-  0% {
-    opacity: 0.7;
-  }
-  100% {
-    opacity: 0;
-    -webkit-transform: translate(72px, 400px);
-            transform: translate(72px, 400px);
-  }
-}
-
-body .container .star:nth-child(18) {
-  position: absolute;
-  left: 500px;
-  top: -10px;
-  width: 6px;
-  height: 6px;
-  border-radius: 50%;
-  background-color: #c3f750;
-  opacity: 0;
-  -webkit-animation: gogo 12s ease 2s infinite;
-          animation: gogo 12s ease 2s infinite;
-}
-
-@keyframes gogo {
-  0% {
-    opacity: 0.7;
-  }
-  100% {
-    opacity: 0;
-    -webkit-transform: translate(5px, 400px);
-            transform: translate(5px, 400px);
-  }
-}
-
-body .container .star:nth-child(19) {
-  position: absolute;
-  left: 401px;
-  top: -10px;
-  width: 4.5px;
-  height: 4.5px;
-  border-radius: 50%;
-  background-color: #995cff;
-  opacity: 0;
-  -webkit-animation: gogo 16s ease 4s infinite;
-          animation: gogo 16s ease 4s infinite;
-}
-
-@keyframes gogo {
-  0% {
-    opacity: 0.7;
-  }
-  100% {
-    opacity: 0;
-    -webkit-transform: translate(54px, 400px);
-            transform: translate(54px, 400px);
-  }
-}
-
-body .container .star:nth-child(20) {
-  position: absolute;
-  left: 383px;
-  top: -10px;
-  width: 6px;
-  height: 6px;
-  border-radius: 50%;
-  background-color: #7438f6;
-  opacity: 0;
-  -webkit-animation: gogo 4s ease 2s infinite;
-          animation: gogo 4s ease 2s infinite;
-}
-
-@keyframes gogo {
-  0% {
-    opacity: 0.7;
-  }
-  100% {
-    opacity: 0;
-    -webkit-transform: translate(86px, 400px);
-            transform: translate(86px, 400px);
-  }
-}
-
-body .container .star:nth-child(21) {
-  position: absolute;
-  left: 494px;
-  top: -10px;
-  width: 6px;
-  height: 6px;
-  border-radius: 50%;
-  background-color: #7ca55a;
-  opacity: 0;
-  -webkit-animation: gogo 8s ease 4s infinite;
-          animation: gogo 8s ease 4s infinite;
-}
-
-@keyframes gogo {
-  0% {
-    opacity: 0.7;
-  }
-  100% {
-    opacity: 0;
-    -webkit-transform: translate(47px, 400px);
-            transform: translate(47px, 400px);
-  }
-}
-
-body .container .star:nth-child(22) {
-  position: absolute;
-  left: 445px;
-  top: -10px;
-  width: 4.5px;
-  height: 4.5px;
-  border-radius: 50%;
-  background-color: #4d06e4;
-  opacity: 0;
-  -webkit-animation: gogo 4s ease 1s infinite;
-          animation: gogo 4s ease 1s infinite;
-}
-
-@keyframes gogo {
-  0% {
-    opacity: 0.7;
-  }
-  100% {
-    opacity: 0;
-    -webkit-transform: translate(177px, 400px);
-            transform: translate(177px, 400px);
-  }
-}
-
-body .container .star:nth-child(23) {
-  position: absolute;
-  left: 278px;
-  top: -10px;
-  width: 3px;
-  height: 3px;
-  border-radius: 50%;
-  background-color: #16ff23;
-  opacity: 0;
-  -webkit-animation: gogo 12s ease 2s infinite;
-          animation: gogo 12s ease 2s infinite;
-}
-
-@keyframes gogo {
-  0% {
-    opacity: 0.7;
-  }
-  100% {
-    opacity: 0;
-    -webkit-transform: translate(164px, 400px);
-            transform: translate(164px, 400px);
-  }
-}
-
-body .container .star:nth-child(24) {
-  position: absolute;
-  left: 146px;
-  top: -10px;
-  width: 1.5px;
-  height: 1.5px;
-  border-radius: 50%;
-  background-color: #651455;
-  opacity: 0;
-  -webkit-animation: gogo 12s ease 3s infinite;
-          animation: gogo 12s ease 3s infinite;
-}
-
-@keyframes gogo {
-  0% {
-    opacity: 0.7;
-  }
-  100% {
-    opacity: 0;
-    -webkit-transform: translate(176px, 400px);
-            transform: translate(176px, 400px);
-  }
-}
-
-body .container .star:nth-child(25) {
-  position: absolute;
-  left: 351px;
-  top: -10px;
-  width: 4.5px;
-  height: 4.5px;
-  border-radius: 50%;
-  background-color: #3739d8;
-  opacity: 0;
-  -webkit-animation: gogo 4s ease 3s infinite;
-          animation: gogo 4s ease 3s infinite;
-}
-
-@keyframes gogo {
-  0% {
-    opacity: 0.7;
-  }
-  100% {
-    opacity: 0;
-    -webkit-transform: translate(200px, 400px);
-            transform: translate(200px, 400px);
-  }
-}
-
-body .container .star:nth-child(26) {
-  position: absolute;
-  left: 65px;
-  top: -10px;
-  width: 6px;
-  height: 6px;
-  border-radius: 50%;
-  background-color: #679645;
-  opacity: 0;
-  -webkit-animation: gogo 8s ease 3s infinite;
-          animation: gogo 8s ease 3s infinite;
-}
-
-@keyframes gogo {
-  0% {
-    opacity: 0.7;
-  }
-  100% {
-    opacity: 0;
-    -webkit-transform: translate(172px, 400px);
-            transform: translate(172px, 400px);
-  }
-}
-
-body .container .star:nth-child(27) {
-  position: absolute;
-  left: 252px;
-  top: -10px;
-  width: 6px;
-  height: 6px;
-  border-radius: 50%;
-  background-color: #0dd2b3;
-  opacity: 0;
-  -webkit-animation: gogo 20s ease 4s infinite;
-          animation: gogo 20s ease 4s infinite;
-}
-
-@keyframes gogo {
-  0% {
-    opacity: 0.7;
-  }
-  100% {
-    opacity: 0;
-    -webkit-transform: translate(154px, 400px);
-            transform: translate(154px, 400px);
-  }
-}
-
-body .container .star:nth-child(28) {
-  position: absolute;
-  left: 428px;
-  top: -10px;
-  width: 4.5px;
-  height: 4.5px;
-  border-radius: 50%;
-  background-color: #1f6774;
-  opacity: 0;
-  -webkit-animation: gogo 4s ease 5s infinite;
-          animation: gogo 4s ease 5s infinite;
-}
-
-@keyframes gogo {
-  0% {
-    opacity: 0.7;
-  }
-  100% {
-    opacity: 0;
-    -webkit-transform: translate(142px, 400px);
-            transform: translate(142px, 400px);
-  }
-}
-
 body .container .star:nth-child(29) {
   position: absolute;
-  left: 210px;
+  left: 215px;
   top: -10px;
-  width: 1.5px;
-  height: 1.5px;
+  width: 3px;
+  height: 3px;
   border-radius: 50%;
-  background-color: #cf47a3;
+  background-color: #850a03;
   opacity: 0;
-  -webkit-animation: gogo 8s ease 1s infinite;
-          animation: gogo 8s ease 1s infinite;
+  -webkit-animation: gogo 4s ease 2s infinite;
+          animation: gogo 4s ease 2s infinite;
 }
 
 @keyframes gogo {
@@ -765,21 +765,21 @@ body .container .star:nth-child(29) {
   }
   100% {
     opacity: 0;
-    -webkit-transform: translate(89px, 400px);
-            transform: translate(89px, 400px);
+    -webkit-transform: translate(144px, 400px);
+            transform: translate(144px, 400px);
   }
 }
 
 body .container .star:nth-child(30) {
   position: absolute;
-  left: 327px;
+  left: 245px;
   top: -10px;
-  width: 1.5px;
-  height: 1.5px;
+  width: 6px;
+  height: 6px;
   border-radius: 50%;
-  background-color: #0b4414;
+  background-color: #bdb4c8;
   opacity: 0;
-  -webkit-animation: gogo 8s ease 4s infinite;
-          animation: gogo 8s ease 4s infinite;
+  -webkit-animation: gogo 8s ease 5s infinite;
+          animation: gogo 8s ease 5s infinite;
 }
 /*# sourceMappingURL=stars-練習.css.map */
