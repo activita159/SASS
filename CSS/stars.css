@@ -67,88 +67,10 @@ body .card .moon {
     opacity: 0.6;
   }
   100% {
-    -webkit-transform: translate(95px, 400px);
-            transform: translate(95px, 400px);
+    -webkit-transform: translate(181px, 400px);
+            transform: translate(181px, 400px);
     opacity: 0;
   }
-}
-
-@keyframes go {
-  0% {
-    -webkit-transform: translate(0, 0);
-            transform: translate(0, 0);
-    opacity: 0.6;
-  }
-  100% {
-    -webkit-transform: translate(95px, 400px);
-            transform: translate(95px, 400px);
-    opacity: 0;
-  }
-}
-
-body .card .star:nth-child(1) {
-  opacity: 1;
-  position: absolute;
-  top: -15px;
-  left: 63%;
-  background-color: #9e4cde;
-  width: 6px;
-  height: 6px;
-  border-radius: 50%;
-  -webkit-animation: go 9s linear 3s infinite;
-          animation: go 9s linear 3s infinite;
-}
-
-@keyframes go {
-  0% {
-    -webkit-transform: translate(0, 0);
-            transform: translate(0, 0);
-    opacity: 0.6;
-  }
-  100% {
-    -webkit-transform: translate(150px, 400px);
-            transform: translate(150px, 400px);
-    opacity: 0;
-  }
-}
-
-body .card .star:nth-child(2) {
-  opacity: 1;
-  position: absolute;
-  top: -15px;
-  left: 60%;
-  background-color: #aa2207;
-  width: 2px;
-  height: 2px;
-  border-radius: 50%;
-  -webkit-animation: go 8s linear 3s infinite;
-          animation: go 8s linear 3s infinite;
-}
-
-@keyframes go {
-  0% {
-    -webkit-transform: translate(0, 0);
-            transform: translate(0, 0);
-    opacity: 0.6;
-  }
-  100% {
-    -webkit-transform: translate(145px, 400px);
-            transform: translate(145px, 400px);
-    opacity: 0;
-  }
-}
-
-body .card .star:nth-child(3) {
-  opacity: 1;
-  position: absolute;
-  top: -15px;
-  left: 36%;
-  background-color: #5b4dac;
-  width: 2px;
-  height: 2px;
-  border-radius: 50%;
-  -webkit-animation: go 9s linear 2s infinite;
-          animation: go 9s linear 2s infinite;
 }
 
 @keyframes go {
@@ -164,43 +86,17 @@ body .card .star:nth-child(3) {
   }
 }
 
-body .card .star:nth-child(4) {
+body .card .star:nth-child(1) {
   opacity: 1;
   position: absolute;
   top: -15px;
-  left: 29%;
-  background-color: #1cc6f5;
-  width: 2px;
-  height: 2px;
-  border-radius: 50%;
-  -webkit-animation: go 9s linear 3s infinite;
-          animation: go 9s linear 3s infinite;
-}
-
-@keyframes go {
-  0% {
-    -webkit-transform: translate(0, 0);
-            transform: translate(0, 0);
-    opacity: 0.6;
-  }
-  100% {
-    -webkit-transform: translate(198px, 400px);
-            transform: translate(198px, 400px);
-    opacity: 0;
-  }
-}
-
-body .card .star:nth-child(5) {
-  opacity: 1;
-  position: absolute;
-  top: -15px;
-  left: 88%;
-  background-color: #092e1d;
+  left: 15%;
+  background-color: #0f3d8d;
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  -webkit-animation: go 7s linear 1s infinite;
-          animation: go 7s linear 1s infinite;
+  -webkit-animation: go 9s linear 1s infinite;
+          animation: go 9s linear 1s infinite;
 }
 
 @keyframes go {
@@ -210,124 +106,20 @@ body .card .star:nth-child(5) {
     opacity: 0.6;
   }
   100% {
-    -webkit-transform: translate(116px, 400px);
-            transform: translate(116px, 400px);
+    -webkit-transform: translate(19px, 400px);
+            transform: translate(19px, 400px);
     opacity: 0;
   }
 }
 
-body .card .star:nth-child(6) {
+body .card .star:nth-child(2) {
   opacity: 1;
   position: absolute;
   top: -15px;
-  left: 77%;
-  background-color: #a413d6;
-  width: 2px;
-  height: 2px;
-  border-radius: 50%;
-  -webkit-animation: go 9s linear 3s infinite;
-          animation: go 9s linear 3s infinite;
-}
-
-@keyframes go {
-  0% {
-    -webkit-transform: translate(0, 0);
-            transform: translate(0, 0);
-    opacity: 0.6;
-  }
-  100% {
-    -webkit-transform: translate(155px, 400px);
-            transform: translate(155px, 400px);
-    opacity: 0;
-  }
-}
-
-body .card .star:nth-child(7) {
-  opacity: 1;
-  position: absolute;
-  top: -15px;
-  left: 7%;
-  background-color: #852b9e;
+  left: 100%;
+  background-color: #27a5a6;
   width: 6px;
   height: 6px;
-  border-radius: 50%;
-  -webkit-animation: go 6s linear 3s infinite;
-          animation: go 6s linear 3s infinite;
-}
-
-@keyframes go {
-  0% {
-    -webkit-transform: translate(0, 0);
-            transform: translate(0, 0);
-    opacity: 0.6;
-  }
-  100% {
-    -webkit-transform: translate(116px, 400px);
-            transform: translate(116px, 400px);
-    opacity: 0;
-  }
-}
-
-body .card .star:nth-child(8) {
-  opacity: 1;
-  position: absolute;
-  top: -15px;
-  left: 75%;
-  background-color: #f8ceda;
-  width: 4px;
-  height: 4px;
-  border-radius: 50%;
-  -webkit-animation: go 9s linear 2s infinite;
-          animation: go 9s linear 2s infinite;
-}
-
-@keyframes go {
-  0% {
-    -webkit-transform: translate(0, 0);
-            transform: translate(0, 0);
-    opacity: 0.6;
-  }
-  100% {
-    -webkit-transform: translate(57px, 400px);
-            transform: translate(57px, 400px);
-    opacity: 0;
-  }
-}
-
-body .card .star:nth-child(9) {
-  opacity: 1;
-  position: absolute;
-  top: -15px;
-  left: 37%;
-  background-color: #f7127a;
-  width: 2px;
-  height: 2px;
-  border-radius: 50%;
-  -webkit-animation: go 5s linear 3s infinite;
-          animation: go 5s linear 3s infinite;
-}
-
-@keyframes go {
-  0% {
-    -webkit-transform: translate(0, 0);
-            transform: translate(0, 0);
-    opacity: 0.6;
-  }
-  100% {
-    -webkit-transform: translate(92px, 400px);
-            transform: translate(92px, 400px);
-    opacity: 0;
-  }
-}
-
-body .card .star:nth-child(10) {
-  opacity: 1;
-  position: absolute;
-  top: -15px;
-  left: 84%;
-  background-color: #f42a50;
-  width: 4px;
-  height: 4px;
   border-radius: 50%;
   -webkit-animation: go 8s linear 4s infinite;
           animation: go 8s linear 4s infinite;
@@ -340,23 +132,23 @@ body .card .star:nth-child(10) {
     opacity: 0.6;
   }
   100% {
-    -webkit-transform: translate(2px, 400px);
-            transform: translate(2px, 400px);
+    -webkit-transform: translate(20px, 400px);
+            transform: translate(20px, 400px);
     opacity: 0;
   }
 }
 
-body .card .star:nth-child(11) {
+body .card .star:nth-child(3) {
   opacity: 1;
   position: absolute;
   top: -15px;
-  left: 99%;
-  background-color: #88f2d5;
-  width: 2px;
-  height: 2px;
+  left: 84%;
+  background-color: #41f27d;
+  width: 6px;
+  height: 6px;
   border-radius: 50%;
-  -webkit-animation: go 9s linear 3s infinite;
-          animation: go 9s linear 3s infinite;
+  -webkit-animation: go 8s linear 4s infinite;
+          animation: go 8s linear 4s infinite;
 }
 
 @keyframes go {
@@ -366,18 +158,44 @@ body .card .star:nth-child(11) {
     opacity: 0.6;
   }
   100% {
-    -webkit-transform: translate(62px, 400px);
-            transform: translate(62px, 400px);
+    -webkit-transform: translate(38px, 400px);
+            transform: translate(38px, 400px);
     opacity: 0;
   }
 }
 
-body .card .star:nth-child(12) {
+body .card .star:nth-child(4) {
   opacity: 1;
   position: absolute;
   top: -15px;
-  left: 100%;
-  background-color: #3ef7ad;
+  left: 33%;
+  background-color: #a9f4ba;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  -webkit-animation: go 5s linear 2s infinite;
+          animation: go 5s linear 2s infinite;
+}
+
+@keyframes go {
+  0% {
+    -webkit-transform: translate(0, 0);
+            transform: translate(0, 0);
+    opacity: 0.6;
+  }
+  100% {
+    -webkit-transform: translate(14px, 400px);
+            transform: translate(14px, 400px);
+    opacity: 0;
+  }
+}
+
+body .card .star:nth-child(5) {
+  opacity: 1;
+  position: absolute;
+  top: -15px;
+  left: 24%;
+  background-color: #b7ff4d;
   width: 6px;
   height: 6px;
   border-radius: 50%;
@@ -392,122 +210,18 @@ body .card .star:nth-child(12) {
     opacity: 0.6;
   }
   100% {
-    -webkit-transform: translate(142px, 400px);
-            transform: translate(142px, 400px);
+    -webkit-transform: translate(135px, 400px);
+            transform: translate(135px, 400px);
     opacity: 0;
   }
 }
 
-body .card .star:nth-child(13) {
+body .card .star:nth-child(6) {
   opacity: 1;
   position: absolute;
   top: -15px;
-  left: 56%;
-  background-color: #95b6ae;
-  width: 2px;
-  height: 2px;
-  border-radius: 50%;
-  -webkit-animation: go 9s linear 2s infinite;
-          animation: go 9s linear 2s infinite;
-}
-
-@keyframes go {
-  0% {
-    -webkit-transform: translate(0, 0);
-            transform: translate(0, 0);
-    opacity: 0.6;
-  }
-  100% {
-    -webkit-transform: translate(68px, 400px);
-            transform: translate(68px, 400px);
-    opacity: 0;
-  }
-}
-
-body .card .star:nth-child(14) {
-  opacity: 1;
-  position: absolute;
-  top: -15px;
-  left: 11%;
-  background-color: #b4696b;
-  width: 2px;
-  height: 2px;
-  border-radius: 50%;
-  -webkit-animation: go 7s linear 2s infinite;
-          animation: go 7s linear 2s infinite;
-}
-
-@keyframes go {
-  0% {
-    -webkit-transform: translate(0, 0);
-            transform: translate(0, 0);
-    opacity: 0.6;
-  }
-  100% {
-    -webkit-transform: translate(167px, 400px);
-            transform: translate(167px, 400px);
-    opacity: 0;
-  }
-}
-
-body .card .star:nth-child(15) {
-  opacity: 1;
-  position: absolute;
-  top: -15px;
-  left: 88%;
-  background-color: #345376;
-  width: 2px;
-  height: 2px;
-  border-radius: 50%;
-  -webkit-animation: go 7s linear 4s infinite;
-          animation: go 7s linear 4s infinite;
-}
-
-@keyframes go {
-  0% {
-    -webkit-transform: translate(0, 0);
-            transform: translate(0, 0);
-    opacity: 0.6;
-  }
-  100% {
-    -webkit-transform: translate(36px, 400px);
-            transform: translate(36px, 400px);
-    opacity: 0;
-  }
-}
-
-body .card .star:nth-child(16) {
-  opacity: 1;
-  position: absolute;
-  top: -15px;
-  left: 45%;
-  background-color: #22d3f0;
-  width: 4px;
-  height: 4px;
-  border-radius: 50%;
-  -webkit-animation: go 5s linear 5s infinite;
-          animation: go 5s linear 5s infinite;
-}
-
-@keyframes go {
-  0% {
-    -webkit-transform: translate(0, 0);
-            transform: translate(0, 0);
-    opacity: 0.6;
-  }
-  100% {
-    -webkit-transform: translate(54px, 400px);
-            transform: translate(54px, 400px);
-    opacity: 0;
-  }
-}
-
-body .card .star:nth-child(17) {
-  opacity: 1;
-  position: absolute;
-  top: -15px;
-  left: 26%;
-  background-color: #b819ab;
+  left: 84%;
+  background-color: #502369;
   width: 4px;
   height: 4px;
   border-radius: 50%;
@@ -522,98 +236,20 @@ body .card .star:nth-child(17) {
     opacity: 0.6;
   }
   100% {
-    -webkit-transform: translate(100px, 400px);
-            transform: translate(100px, 400px);
+    -webkit-transform: translate(14px, 400px);
+            transform: translate(14px, 400px);
     opacity: 0;
   }
 }
 
-body .card .star:nth-child(18) {
+body .card .star:nth-child(7) {
   opacity: 1;
   position: absolute;
   top: -15px;
-  left: 41%;
-  background-color: #4ca0cb;
+  left: 36%;
+  background-color: #c5b56c;
   width: 4px;
   height: 4px;
-  border-radius: 50%;
-  -webkit-animation: go 5s linear 2s infinite;
-          animation: go 5s linear 2s infinite;
-}
-
-@keyframes go {
-  0% {
-    -webkit-transform: translate(0, 0);
-            transform: translate(0, 0);
-    opacity: 0.6;
-  }
-  100% {
-    -webkit-transform: translate(120px, 400px);
-            transform: translate(120px, 400px);
-    opacity: 0;
-  }
-}
-
-body .card .star:nth-child(19) {
-  opacity: 1;
-  position: absolute;
-  top: -15px;
-  left: 44%;
-  background-color: #b762bb;
-  width: 4px;
-  height: 4px;
-  border-radius: 50%;
-  -webkit-animation: go 9s linear 3s infinite;
-          animation: go 9s linear 3s infinite;
-}
-
-@keyframes go {
-  0% {
-    -webkit-transform: translate(0, 0);
-            transform: translate(0, 0);
-    opacity: 0.6;
-  }
-  100% {
-    -webkit-transform: translate(69px, 400px);
-            transform: translate(69px, 400px);
-    opacity: 0;
-  }
-}
-
-body .card .star:nth-child(20) {
-  opacity: 1;
-  position: absolute;
-  top: -15px;
-  left: 72%;
-  background-color: #3509b4;
-  width: 4px;
-  height: 4px;
-  border-radius: 50%;
-  -webkit-animation: go 7s linear 2s infinite;
-          animation: go 7s linear 2s infinite;
-}
-
-@keyframes go {
-  0% {
-    -webkit-transform: translate(0, 0);
-            transform: translate(0, 0);
-    opacity: 0.6;
-  }
-  100% {
-    -webkit-transform: translate(189px, 400px);
-            transform: translate(189px, 400px);
-    opacity: 0;
-  }
-}
-
-body .card .star:nth-child(21) {
-  opacity: 1;
-  position: absolute;
-  top: -15px;
-  left: 78%;
-  background-color: #c5a667;
-  width: 6px;
-  height: 6px;
   border-radius: 50%;
   -webkit-animation: go 7s linear 1s infinite;
           animation: go 7s linear 1s infinite;
@@ -626,23 +262,75 @@ body .card .star:nth-child(21) {
     opacity: 0.6;
   }
   100% {
-    -webkit-transform: translate(18px, 400px);
-            transform: translate(18px, 400px);
+    -webkit-transform: translate(59px, 400px);
+            transform: translate(59px, 400px);
     opacity: 0;
   }
 }
 
-body .card .star:nth-child(22) {
+body .card .star:nth-child(8) {
   opacity: 1;
   position: absolute;
   top: -15px;
-  left: 21%;
-  background-color: #1ea1ba;
-  width: 4px;
-  height: 4px;
+  left: 85%;
+  background-color: #0160dc;
+  width: 2px;
+  height: 2px;
   border-radius: 50%;
-  -webkit-animation: go 8s linear 5s infinite;
-          animation: go 8s linear 5s infinite;
+  -webkit-animation: go 9s linear 5s infinite;
+          animation: go 9s linear 5s infinite;
+}
+
+@keyframes go {
+  0% {
+    -webkit-transform: translate(0, 0);
+            transform: translate(0, 0);
+    opacity: 0.6;
+  }
+  100% {
+    -webkit-transform: translate(162px, 400px);
+            transform: translate(162px, 400px);
+    opacity: 0;
+  }
+}
+
+body .card .star:nth-child(9) {
+  opacity: 1;
+  position: absolute;
+  top: -15px;
+  left: 27%;
+  background-color: #82c693;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  -webkit-animation: go 7s linear 3s infinite;
+          animation: go 7s linear 3s infinite;
+}
+
+@keyframes go {
+  0% {
+    -webkit-transform: translate(0, 0);
+            transform: translate(0, 0);
+    opacity: 0.6;
+  }
+  100% {
+    -webkit-transform: translate(190px, 400px);
+            transform: translate(190px, 400px);
+    opacity: 0;
+  }
+}
+
+body .card .star:nth-child(10) {
+  opacity: 1;
+  position: absolute;
+  top: -15px;
+  left: 6%;
+  background-color: #52a2df;
+  width: 2px;
+  height: 2px;
+  border-radius: 50%;
+  -webkit-animation: go 8s linear 4s infinite;
+          animation: go 8s linear 4s infinite;
 }
 
 @keyframes go {
@@ -658,17 +346,17 @@ body .card .star:nth-child(22) {
   }
 }
 
-body .card .star:nth-child(23) {
+body .card .star:nth-child(11) {
   opacity: 1;
   position: absolute;
   top: -15px;
-  left: 49%;
-  background-color: #464582;
-  width: 4px;
-  height: 4px;
+  left: 64%;
+  background-color: #7e6e19;
+  width: 6px;
+  height: 6px;
   border-radius: 50%;
-  -webkit-animation: go 9s linear 5s infinite;
-          animation: go 9s linear 5s infinite;
+  -webkit-animation: go 6s linear 5s infinite;
+          animation: go 6s linear 5s infinite;
 }
 
 @keyframes go {
@@ -678,46 +366,20 @@ body .card .star:nth-child(23) {
     opacity: 0.6;
   }
   100% {
-    -webkit-transform: translate(198px, 400px);
-            transform: translate(198px, 400px);
+    -webkit-transform: translate(61px, 400px);
+            transform: translate(61px, 400px);
     opacity: 0;
   }
 }
 
-body .card .star:nth-child(24) {
+body .card .star:nth-child(12) {
   opacity: 1;
   position: absolute;
   top: -15px;
-  left: 29%;
-  background-color: #9b76a3;
-  width: 4px;
-  height: 4px;
-  border-radius: 50%;
-  -webkit-animation: go 9s linear 4s infinite;
-          animation: go 9s linear 4s infinite;
-}
-
-@keyframes go {
-  0% {
-    -webkit-transform: translate(0, 0);
-            transform: translate(0, 0);
-    opacity: 0.6;
-  }
-  100% {
-    -webkit-transform: translate(10px, 400px);
-            transform: translate(10px, 400px);
-    opacity: 0;
-  }
-}
-
-body .card .star:nth-child(25) {
-  opacity: 1;
-  position: absolute;
-  top: -15px;
-  left: 66%;
-  background-color: #eb2589;
-  width: 4px;
-  height: 4px;
+  left: 64%;
+  background-color: #44cda7;
+  width: 6px;
+  height: 6px;
   border-radius: 50%;
   -webkit-animation: go 8s linear 1s infinite;
           animation: go 8s linear 1s infinite;
@@ -730,8 +392,346 @@ body .card .star:nth-child(25) {
     opacity: 0.6;
   }
   100% {
-    -webkit-transform: translate(154px, 400px);
-            transform: translate(154px, 400px);
+    -webkit-transform: translate(156px, 400px);
+            transform: translate(156px, 400px);
+    opacity: 0;
+  }
+}
+
+body .card .star:nth-child(13) {
+  opacity: 1;
+  position: absolute;
+  top: -15px;
+  left: 11%;
+  background-color: #3cb12c;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  -webkit-animation: go 5s linear 1s infinite;
+          animation: go 5s linear 1s infinite;
+}
+
+@keyframes go {
+  0% {
+    -webkit-transform: translate(0, 0);
+            transform: translate(0, 0);
+    opacity: 0.6;
+  }
+  100% {
+    -webkit-transform: translate(139px, 400px);
+            transform: translate(139px, 400px);
+    opacity: 0;
+  }
+}
+
+body .card .star:nth-child(14) {
+  opacity: 1;
+  position: absolute;
+  top: -15px;
+  left: 33%;
+  background-color: #e34133;
+  width: 2px;
+  height: 2px;
+  border-radius: 50%;
+  -webkit-animation: go 7s linear 5s infinite;
+          animation: go 7s linear 5s infinite;
+}
+
+@keyframes go {
+  0% {
+    -webkit-transform: translate(0, 0);
+            transform: translate(0, 0);
+    opacity: 0.6;
+  }
+  100% {
+    -webkit-transform: translate(148px, 400px);
+            transform: translate(148px, 400px);
+    opacity: 0;
+  }
+}
+
+body .card .star:nth-child(15) {
+  opacity: 1;
+  position: absolute;
+  top: -15px;
+  left: 42%;
+  background-color: #9845ef;
+  width: 4px;
+  height: 4px;
+  border-radius: 50%;
+  -webkit-animation: go 7s linear 2s infinite;
+          animation: go 7s linear 2s infinite;
+}
+
+@keyframes go {
+  0% {
+    -webkit-transform: translate(0, 0);
+            transform: translate(0, 0);
+    opacity: 0.6;
+  }
+  100% {
+    -webkit-transform: translate(103px, 400px);
+            transform: translate(103px, 400px);
+    opacity: 0;
+  }
+}
+
+body .card .star:nth-child(16) {
+  opacity: 1;
+  position: absolute;
+  top: -15px;
+  left: 14%;
+  background-color: #236088;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  -webkit-animation: go 7s linear 2s infinite;
+          animation: go 7s linear 2s infinite;
+}
+
+@keyframes go {
+  0% {
+    -webkit-transform: translate(0, 0);
+            transform: translate(0, 0);
+    opacity: 0.6;
+  }
+  100% {
+    -webkit-transform: translate(200px, 400px);
+            transform: translate(200px, 400px);
+    opacity: 0;
+  }
+}
+
+body .card .star:nth-child(17) {
+  opacity: 1;
+  position: absolute;
+  top: -15px;
+  left: 93%;
+  background-color: #5071f8;
+  width: 2px;
+  height: 2px;
+  border-radius: 50%;
+  -webkit-animation: go 9s linear 5s infinite;
+          animation: go 9s linear 5s infinite;
+}
+
+@keyframes go {
+  0% {
+    -webkit-transform: translate(0, 0);
+            transform: translate(0, 0);
+    opacity: 0.6;
+  }
+  100% {
+    -webkit-transform: translate(128px, 400px);
+            transform: translate(128px, 400px);
+    opacity: 0;
+  }
+}
+
+body .card .star:nth-child(18) {
+  opacity: 1;
+  position: absolute;
+  top: -15px;
+  left: 68%;
+  background-color: #dff09f;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  -webkit-animation: go 7s linear 3s infinite;
+          animation: go 7s linear 3s infinite;
+}
+
+@keyframes go {
+  0% {
+    -webkit-transform: translate(0, 0);
+            transform: translate(0, 0);
+    opacity: 0.6;
+  }
+  100% {
+    -webkit-transform: translate(45px, 400px);
+            transform: translate(45px, 400px);
+    opacity: 0;
+  }
+}
+
+body .card .star:nth-child(19) {
+  opacity: 1;
+  position: absolute;
+  top: -15px;
+  left: 26%;
+  background-color: #98a156;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  -webkit-animation: go 5s linear 5s infinite;
+          animation: go 5s linear 5s infinite;
+}
+
+@keyframes go {
+  0% {
+    -webkit-transform: translate(0, 0);
+            transform: translate(0, 0);
+    opacity: 0.6;
+  }
+  100% {
+    -webkit-transform: translate(82px, 400px);
+            transform: translate(82px, 400px);
+    opacity: 0;
+  }
+}
+
+body .card .star:nth-child(20) {
+  opacity: 1;
+  position: absolute;
+  top: -15px;
+  left: 46%;
+  background-color: #fccec7;
+  width: 2px;
+  height: 2px;
+  border-radius: 50%;
+  -webkit-animation: go 8s linear 3s infinite;
+          animation: go 8s linear 3s infinite;
+}
+
+@keyframes go {
+  0% {
+    -webkit-transform: translate(0, 0);
+            transform: translate(0, 0);
+    opacity: 0.6;
+  }
+  100% {
+    -webkit-transform: translate(73px, 400px);
+            transform: translate(73px, 400px);
+    opacity: 0;
+  }
+}
+
+body .card .star:nth-child(21) {
+  opacity: 1;
+  position: absolute;
+  top: -15px;
+  left: 16%;
+  background-color: #f6663e;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  -webkit-animation: go 6s linear 1s infinite;
+          animation: go 6s linear 1s infinite;
+}
+
+@keyframes go {
+  0% {
+    -webkit-transform: translate(0, 0);
+            transform: translate(0, 0);
+    opacity: 0.6;
+  }
+  100% {
+    -webkit-transform: translate(6px, 400px);
+            transform: translate(6px, 400px);
+    opacity: 0;
+  }
+}
+
+body .card .star:nth-child(22) {
+  opacity: 1;
+  position: absolute;
+  top: -15px;
+  left: 40%;
+  background-color: #eb1c74;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  -webkit-animation: go 9s linear 5s infinite;
+          animation: go 9s linear 5s infinite;
+}
+
+@keyframes go {
+  0% {
+    -webkit-transform: translate(0, 0);
+            transform: translate(0, 0);
+    opacity: 0.6;
+  }
+  100% {
+    -webkit-transform: translate(141px, 400px);
+            transform: translate(141px, 400px);
+    opacity: 0;
+  }
+}
+
+body .card .star:nth-child(23) {
+  opacity: 1;
+  position: absolute;
+  top: -15px;
+  left: 96%;
+  background-color: #d824b9;
+  width: 4px;
+  height: 4px;
+  border-radius: 50%;
+  -webkit-animation: go 6s linear 1s infinite;
+          animation: go 6s linear 1s infinite;
+}
+
+@keyframes go {
+  0% {
+    -webkit-transform: translate(0, 0);
+            transform: translate(0, 0);
+    opacity: 0.6;
+  }
+  100% {
+    -webkit-transform: translate(61px, 400px);
+            transform: translate(61px, 400px);
+    opacity: 0;
+  }
+}
+
+body .card .star:nth-child(24) {
+  opacity: 1;
+  position: absolute;
+  top: -15px;
+  left: 75%;
+  background-color: #03eac1;
+  width: 4px;
+  height: 4px;
+  border-radius: 50%;
+  -webkit-animation: go 5s linear 4s infinite;
+          animation: go 5s linear 4s infinite;
+}
+
+@keyframes go {
+  0% {
+    -webkit-transform: translate(0, 0);
+            transform: translate(0, 0);
+    opacity: 0.6;
+  }
+  100% {
+    -webkit-transform: translate(65px, 400px);
+            transform: translate(65px, 400px);
+    opacity: 0;
+  }
+}
+
+body .card .star:nth-child(25) {
+  opacity: 1;
+  position: absolute;
+  top: -15px;
+  left: 1%;
+  background-color: #8a0e73;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  -webkit-animation: go 9s linear 5s infinite;
+          animation: go 9s linear 5s infinite;
+}
+
+@keyframes go {
+  0% {
+    -webkit-transform: translate(0, 0);
+            transform: translate(0, 0);
+    opacity: 0.6;
+  }
+  100% {
+    -webkit-transform: translate(111px, 400px);
+            transform: translate(111px, 400px);
     opacity: 0;
   }
 }
@@ -740,13 +740,13 @@ body .card .star:nth-child(26) {
   opacity: 1;
   position: absolute;
   top: -15px;
-  left: 91%;
-  background-color: #134ae4;
+  left: 50%;
+  background-color: #535f35;
   width: 2px;
   height: 2px;
   border-radius: 50%;
-  -webkit-animation: go 5s linear 2s infinite;
-          animation: go 5s linear 2s infinite;
+  -webkit-animation: go 7s linear 1s infinite;
+          animation: go 7s linear 1s infinite;
 }
 
 @keyframes go {
@@ -766,8 +766,34 @@ body .card .star:nth-child(27) {
   opacity: 1;
   position: absolute;
   top: -15px;
-  left: 13%;
-  background-color: #c39d9d;
+  left: 29%;
+  background-color: #3a7239;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  -webkit-animation: go 8s linear 4s infinite;
+          animation: go 8s linear 4s infinite;
+}
+
+@keyframes go {
+  0% {
+    -webkit-transform: translate(0, 0);
+            transform: translate(0, 0);
+    opacity: 0.6;
+  }
+  100% {
+    -webkit-transform: translate(171px, 400px);
+            transform: translate(171px, 400px);
+    opacity: 0;
+  }
+}
+
+body .card .star:nth-child(28) {
+  opacity: 1;
+  position: absolute;
+  top: -15px;
+  left: 66%;
+  background-color: #e2369d;
   width: 6px;
   height: 6px;
   border-radius: 50%;
@@ -782,34 +808,8 @@ body .card .star:nth-child(27) {
     opacity: 0.6;
   }
   100% {
-    -webkit-transform: translate(50px, 400px);
-            transform: translate(50px, 400px);
-    opacity: 0;
-  }
-}
-
-body .card .star:nth-child(28) {
-  opacity: 1;
-  position: absolute;
-  top: -15px;
-  left: 17%;
-  background-color: #d17c8d;
-  width: 6px;
-  height: 6px;
-  border-radius: 50%;
-  -webkit-animation: go 5s linear 5s infinite;
-          animation: go 5s linear 5s infinite;
-}
-
-@keyframes go {
-  0% {
-    -webkit-transform: translate(0, 0);
-            transform: translate(0, 0);
-    opacity: 0.6;
-  }
-  100% {
-    -webkit-transform: translate(148px, 400px);
-            transform: translate(148px, 400px);
+    -webkit-transform: translate(98px, 400px);
+            transform: translate(98px, 400px);
     opacity: 0;
   }
 }
@@ -818,13 +818,13 @@ body .card .star:nth-child(29) {
   opacity: 1;
   position: absolute;
   top: -15px;
-  left: 44%;
-  background-color: #e76c37;
-  width: 2px;
-  height: 2px;
+  left: 21%;
+  background-color: #d128d4;
+  width: 6px;
+  height: 6px;
   border-radius: 50%;
-  -webkit-animation: go 7s linear 5s infinite;
-          animation: go 7s linear 5s infinite;
+  -webkit-animation: go 7s linear 4s infinite;
+          animation: go 7s linear 4s infinite;
 }
 
 @keyframes go {
@@ -834,8 +834,8 @@ body .card .star:nth-child(29) {
     opacity: 0.6;
   }
   100% {
-    -webkit-transform: translate(72px, 400px);
-            transform: translate(72px, 400px);
+    -webkit-transform: translate(198px, 400px);
+            transform: translate(198px, 400px);
     opacity: 0;
   }
 }
@@ -844,12 +844,12 @@ body .card .star:nth-child(30) {
   opacity: 1;
   position: absolute;
   top: -15px;
-  left: 72%;
-  background-color: #9d8c69;
-  width: 4px;
-  height: 4px;
+  left: 11%;
+  background-color: #87aff0;
+  width: 6px;
+  height: 6px;
   border-radius: 50%;
-  -webkit-animation: go 9s linear 3s infinite;
-          animation: go 9s linear 3s infinite;
+  -webkit-animation: go 9s linear 2s infinite;
+          animation: go 9s linear 2s infinite;
 }
 /*# sourceMappingURL=stars.css.map */

@@ -46,19 +46,15 @@ body{
             left: 5%;   
         }
         @for $i from 1 to 31 {
-
             @keyframes gogo {
                 0%{
                     opacity: 0.7;
                 }
-
                 100%{
                     opacity: 0;
                     transform: translate(random(200px)*1px,400px);
                 }
             }
-
-
 
             .star:nth-child(#{$i}){
                 position: absolute;

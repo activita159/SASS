@@ -1,0 +1,58 @@
+$bg_color: black;
+$blue_black: rgb(1, 29, 75);
+$blue_light: rgb(50, 165, 250);
+
+@mixin size($w, $h) {
+  width: $w;
+  height: $h;
+}
+
+* {
+  box-sizing: border-box;
+}
+body {
+  padding: 0;
+  margin: 0;
+  background-color: $bg_color;
+  @include size(100%, 100vh);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .mooncard {
+    @include size(800px, 500px);
+    background: linear-gradient(right, $blue_black, $blue_light);
+    position: relative;
+    overflow: hidden;
+
+    .moon {
+      width: 80px;
+      height: 80px;
+      border-radius: 50%;
+      box-shadow: 15px 15px 3px 3px rgb(187, 184, 164);
+    }
+
+        @for $i from 1 to 41 {
+            @keyframes gogo {
+                0%{
+                    opacity: 0.4;
+                }
+                100%{
+                    opacity: 0.01;
+                    transform: translate(random(250px)*1px,400px);
+                }
+            }
+            .star:nth-child(#{$i}){                
+                $starsize : random(4)*1.2px;
+                @include size($starsize, $starsize);
+                position: absolute;
+                left:random(650px)*1px;
+                top:-10px;
+                background-color: rgb(random(255), random(255), random(255));
+                opacity: 0;
+                animation: gogo random(5)*5s ease-out random(5)*1s infinite;
+                                
+            }
+        }    
+  }
+}

@@ -1,0 +1,970 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  background-color: black;
+  width: 100%;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body .mooncard {
+  width: 800px;
+  height: 500px;
+  background: -webkit-gradient(linear, right top, left top, from(#011d4b), to(#32a5fa));
+  background: linear-gradient(right, #011d4b, #32a5fa);
+  position: relative;
+  overflow: hidden;
+}
+
+body .mooncard .moon {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  -webkit-box-shadow: 15px 15px 3px 3px #bbb8a4;
+          box-shadow: 15px 15px 3px 3px #bbb8a4;
+}
+
+@-webkit-keyframes gogo {
+  0% {
+    opacity: 0.4;
+  }
+  100% {
+    opacity: 0.01;
+    -webkit-transform: translate(194px, 400px);
+            transform: translate(194px, 400px);
+  }
+}
+
+@keyframes gogo {
+  0% {
+    opacity: 0.4;
+  }
+  100% {
+    opacity: 0.01;
+    -webkit-transform: translate(194px, 400px);
+            transform: translate(194px, 400px);
+  }
+}
+
+body .mooncard .star:nth-child(1) {
+  width: 4.8px;
+  height: 4.8px;
+  position: absolute;
+  left: 585px;
+  top: -10px;
+  background-color: #6d4aec;
+  opacity: 0;
+  -webkit-animation: gogo 25s ease-out 2s infinite;
+          animation: gogo 25s ease-out 2s infinite;
+}
+
+@keyframes gogo {
+  0% {
+    opacity: 0.4;
+  }
+  100% {
+    opacity: 0.01;
+    -webkit-transform: translate(68px, 400px);
+            transform: translate(68px, 400px);
+  }
+}
+
+body .mooncard .star:nth-child(2) {
+  width: 4.8px;
+  height: 4.8px;
+  position: absolute;
+  left: 473px;
+  top: -10px;
+  background-color: #83ab6d;
+  opacity: 0;
+  -webkit-animation: gogo 20s ease-out 3s infinite;
+          animation: gogo 20s ease-out 3s infinite;
+}
+
+@keyframes gogo {
+  0% {
+    opacity: 0.4;
+  }
+  100% {
+    opacity: 0.01;
+    -webkit-transform: translate(228px, 400px);
+            transform: translate(228px, 400px);
+  }
+}
+
+body .mooncard .star:nth-child(3) {
+  width: 1.2px;
+  height: 1.2px;
+  position: absolute;
+  left: 192px;
+  top: -10px;
+  background-color: #f5286d;
+  opacity: 0;
+  -webkit-animation: gogo 15s ease-out 4s infinite;
+          animation: gogo 15s ease-out 4s infinite;
+}
+
+@keyframes gogo {
+  0% {
+    opacity: 0.4;
+  }
+  100% {
+    opacity: 0.01;
+    -webkit-transform: translate(125px, 400px);
+            transform: translate(125px, 400px);
+  }
+}
+
+body .mooncard .star:nth-child(4) {
+  width: 2.4px;
+  height: 2.4px;
+  position: absolute;
+  left: 378px;
+  top: -10px;
+  background-color: #a68a90;
+  opacity: 0;
+  -webkit-animation: gogo 25s ease-out 3s infinite;
+          animation: gogo 25s ease-out 3s infinite;
+}
+
+@keyframes gogo {
+  0% {
+    opacity: 0.4;
+  }
+  100% {
+    opacity: 0.01;
+    -webkit-transform: translate(109px, 400px);
+            transform: translate(109px, 400px);
+  }
+}
+
+body .mooncard .star:nth-child(5) {
+  width: 2.4px;
+  height: 2.4px;
+  position: absolute;
+  left: 475px;
+  top: -10px;
+  background-color: #45762b;
+  opacity: 0;
+  -webkit-animation: gogo 20s ease-out 4s infinite;
+          animation: gogo 20s ease-out 4s infinite;
+}
+
+@keyframes gogo {
+  0% {
+    opacity: 0.4;
+  }
+  100% {
+    opacity: 0.01;
+    -webkit-transform: translate(174px, 400px);
+            transform: translate(174px, 400px);
+  }
+}
+
+body .mooncard .star:nth-child(6) {
+  width: 2.4px;
+  height: 2.4px;
+  position: absolute;
+  left: 158px;
+  top: -10px;
+  background-color: #9dc498;
+  opacity: 0;
+  -webkit-animation: gogo 25s ease-out 1s infinite;
+          animation: gogo 25s ease-out 1s infinite;
+}
+
+@keyframes gogo {
+  0% {
+    opacity: 0.4;
+  }
+  100% {
+    opacity: 0.01;
+    -webkit-transform: translate(132px, 400px);
+            transform: translate(132px, 400px);
+  }
+}
+
+body .mooncard .star:nth-child(7) {
+  width: 2.4px;
+  height: 2.4px;
+  position: absolute;
+  left: 446px;
+  top: -10px;
+  background-color: #05683a;
+  opacity: 0;
+  -webkit-animation: gogo 25s ease-out 5s infinite;
+          animation: gogo 25s ease-out 5s infinite;
+}
+
+@keyframes gogo {
+  0% {
+    opacity: 0.4;
+  }
+  100% {
+    opacity: 0.01;
+    -webkit-transform: translate(42px, 400px);
+            transform: translate(42px, 400px);
+  }
+}
+
+body .mooncard .star:nth-child(8) {
+  width: 1.2px;
+  height: 1.2px;
+  position: absolute;
+  left: 362px;
+  top: -10px;
+  background-color: #40ca3b;
+  opacity: 0;
+  -webkit-animation: gogo 5s ease-out 2s infinite;
+          animation: gogo 5s ease-out 2s infinite;
+}
+
+@keyframes gogo {
+  0% {
+    opacity: 0.4;
+  }
+  100% {
+    opacity: 0.01;
+    -webkit-transform: translate(81px, 400px);
+            transform: translate(81px, 400px);
+  }
+}
+
+body .mooncard .star:nth-child(9) {
+  width: 3.6px;
+  height: 3.6px;
+  position: absolute;
+  left: 221px;
+  top: -10px;
+  background-color: #a223e4;
+  opacity: 0;
+  -webkit-animation: gogo 5s ease-out 4s infinite;
+          animation: gogo 5s ease-out 4s infinite;
+}
+
+@keyframes gogo {
+  0% {
+    opacity: 0.4;
+  }
+  100% {
+    opacity: 0.01;
+    -webkit-transform: translate(92px, 400px);
+            transform: translate(92px, 400px);
+  }
+}
+
+body .mooncard .star:nth-child(10) {
+  width: 4.8px;
+  height: 4.8px;
+  position: absolute;
+  left: 217px;
+  top: -10px;
+  background-color: #193139;
+  opacity: 0;
+  -webkit-animation: gogo 25s ease-out 2s infinite;
+          animation: gogo 25s ease-out 2s infinite;
+}
+
+@keyframes gogo {
+  0% {
+    opacity: 0.4;
+  }
+  100% {
+    opacity: 0.01;
+    -webkit-transform: translate(149px, 400px);
+            transform: translate(149px, 400px);
+  }
+}
+
+body .mooncard .star:nth-child(11) {
+  width: 3.6px;
+  height: 3.6px;
+  position: absolute;
+  left: 185px;
+  top: -10px;
+  background-color: #400551;
+  opacity: 0;
+  -webkit-animation: gogo 10s ease-out 1s infinite;
+          animation: gogo 10s ease-out 1s infinite;
+}
+
+@keyframes gogo {
+  0% {
+    opacity: 0.4;
+  }
+  100% {
+    opacity: 0.01;
+    -webkit-transform: translate(122px, 400px);
+            transform: translate(122px, 400px);
+  }
+}
+
+body .mooncard .star:nth-child(12) {
+  width: 4.8px;
+  height: 4.8px;
+  position: absolute;
+  left: 585px;
+  top: -10px;
+  background-color: #e867b7;
+  opacity: 0;
+  -webkit-animation: gogo 10s ease-out 4s infinite;
+          animation: gogo 10s ease-out 4s infinite;
+}
+
+@keyframes gogo {
+  0% {
+    opacity: 0.4;
+  }
+  100% {
+    opacity: 0.01;
+    -webkit-transform: translate(243px, 400px);
+            transform: translate(243px, 400px);
+  }
+}
+
+body .mooncard .star:nth-child(13) {
+  width: 3.6px;
+  height: 3.6px;
+  position: absolute;
+  left: 641px;
+  top: -10px;
+  background-color: #75072c;
+  opacity: 0;
+  -webkit-animation: gogo 5s ease-out 2s infinite;
+          animation: gogo 5s ease-out 2s infinite;
+}
+
+@keyframes gogo {
+  0% {
+    opacity: 0.4;
+  }
+  100% {
+    opacity: 0.01;
+    -webkit-transform: translate(9px, 400px);
+            transform: translate(9px, 400px);
+  }
+}
+
+body .mooncard .star:nth-child(14) {
+  width: 3.6px;
+  height: 3.6px;
+  position: absolute;
+  left: 20px;
+  top: -10px;
+  background-color: #4c3597;
+  opacity: 0;
+  -webkit-animation: gogo 10s ease-out 1s infinite;
+          animation: gogo 10s ease-out 1s infinite;
+}
+
+@keyframes gogo {
+  0% {
+    opacity: 0.4;
+  }
+  100% {
+    opacity: 0.01;
+    -webkit-transform: translate(144px, 400px);
+            transform: translate(144px, 400px);
+  }
+}
+
+body .mooncard .star:nth-child(15) {
+  width: 3.6px;
+  height: 3.6px;
+  position: absolute;
+  left: 417px;
+  top: -10px;
+  background-color: #7c3940;
+  opacity: 0;
+  -webkit-animation: gogo 10s ease-out 4s infinite;
+          animation: gogo 10s ease-out 4s infinite;
+}
+
+@keyframes gogo {
+  0% {
+    opacity: 0.4;
+  }
+  100% {
+    opacity: 0.01;
+    -webkit-transform: translate(170px, 400px);
+            transform: translate(170px, 400px);
+  }
+}
+
+body .mooncard .star:nth-child(16) {
+  width: 2.4px;
+  height: 2.4px;
+  position: absolute;
+  left: 522px;
+  top: -10px;
+  background-color: #c487fd;
+  opacity: 0;
+  -webkit-animation: gogo 20s ease-out 3s infinite;
+          animation: gogo 20s ease-out 3s infinite;
+}
+
+@keyframes gogo {
+  0% {
+    opacity: 0.4;
+  }
+  100% {
+    opacity: 0.01;
+    -webkit-transform: translate(27px, 400px);
+            transform: translate(27px, 400px);
+  }
+}
+
+body .mooncard .star:nth-child(17) {
+  width: 2.4px;
+  height: 2.4px;
+  position: absolute;
+  left: 543px;
+  top: -10px;
+  background-color: #89d3c2;
+  opacity: 0;
+  -webkit-animation: gogo 5s ease-out 3s infinite;
+          animation: gogo 5s ease-out 3s infinite;
+}
+
+@keyframes gogo {
+  0% {
+    opacity: 0.4;
+  }
+  100% {
+    opacity: 0.01;
+    -webkit-transform: translate(9px, 400px);
+            transform: translate(9px, 400px);
+  }
+}
+
+body .mooncard .star:nth-child(18) {
+  width: 1.2px;
+  height: 1.2px;
+  position: absolute;
+  left: 461px;
+  top: -10px;
+  background-color: #31e93b;
+  opacity: 0;
+  -webkit-animation: gogo 20s ease-out 5s infinite;
+          animation: gogo 20s ease-out 5s infinite;
+}
+
+@keyframes gogo {
+  0% {
+    opacity: 0.4;
+  }
+  100% {
+    opacity: 0.01;
+    -webkit-transform: translate(191px, 400px);
+            transform: translate(191px, 400px);
+  }
+}
+
+body .mooncard .star:nth-child(19) {
+  width: 2.4px;
+  height: 2.4px;
+  position: absolute;
+  left: 301px;
+  top: -10px;
+  background-color: #74acc4;
+  opacity: 0;
+  -webkit-animation: gogo 15s ease-out 5s infinite;
+          animation: gogo 15s ease-out 5s infinite;
+}
+
+@keyframes gogo {
+  0% {
+    opacity: 0.4;
+  }
+  100% {
+    opacity: 0.01;
+    -webkit-transform: translate(153px, 400px);
+            transform: translate(153px, 400px);
+  }
+}
+
+body .mooncard .star:nth-child(20) {
+  width: 4.8px;
+  height: 4.8px;
+  position: absolute;
+  left: 239px;
+  top: -10px;
+  background-color: #3a0b4f;
+  opacity: 0;
+  -webkit-animation: gogo 20s ease-out 3s infinite;
+          animation: gogo 20s ease-out 3s infinite;
+}
+
+@keyframes gogo {
+  0% {
+    opacity: 0.4;
+  }
+  100% {
+    opacity: 0.01;
+    -webkit-transform: translate(39px, 400px);
+            transform: translate(39px, 400px);
+  }
+}
+
+body .mooncard .star:nth-child(21) {
+  width: 1.2px;
+  height: 1.2px;
+  position: absolute;
+  left: 606px;
+  top: -10px;
+  background-color: #625c69;
+  opacity: 0;
+  -webkit-animation: gogo 15s ease-out 5s infinite;
+          animation: gogo 15s ease-out 5s infinite;
+}
+
+@keyframes gogo {
+  0% {
+    opacity: 0.4;
+  }
+  100% {
+    opacity: 0.01;
+    -webkit-transform: translate(166px, 400px);
+            transform: translate(166px, 400px);
+  }
+}
+
+body .mooncard .star:nth-child(22) {
+  width: 4.8px;
+  height: 4.8px;
+  position: absolute;
+  left: 108px;
+  top: -10px;
+  background-color: #a2a220;
+  opacity: 0;
+  -webkit-animation: gogo 15s ease-out 1s infinite;
+          animation: gogo 15s ease-out 1s infinite;
+}
+
+@keyframes gogo {
+  0% {
+    opacity: 0.4;
+  }
+  100% {
+    opacity: 0.01;
+    -webkit-transform: translate(198px, 400px);
+            transform: translate(198px, 400px);
+  }
+}
+
+body .mooncard .star:nth-child(23) {
+  width: 2.4px;
+  height: 2.4px;
+  position: absolute;
+  left: 533px;
+  top: -10px;
+  background-color: #c947ed;
+  opacity: 0;
+  -webkit-animation: gogo 10s ease-out 5s infinite;
+          animation: gogo 10s ease-out 5s infinite;
+}
+
+@keyframes gogo {
+  0% {
+    opacity: 0.4;
+  }
+  100% {
+    opacity: 0.01;
+    -webkit-transform: translate(140px, 400px);
+            transform: translate(140px, 400px);
+  }
+}
+
+body .mooncard .star:nth-child(24) {
+  width: 4.8px;
+  height: 4.8px;
+  position: absolute;
+  left: 353px;
+  top: -10px;
+  background-color: #6f4406;
+  opacity: 0;
+  -webkit-animation: gogo 25s ease-out 1s infinite;
+          animation: gogo 25s ease-out 1s infinite;
+}
+
+@keyframes gogo {
+  0% {
+    opacity: 0.4;
+  }
+  100% {
+    opacity: 0.01;
+    -webkit-transform: translate(187px, 400px);
+            transform: translate(187px, 400px);
+  }
+}
+
+body .mooncard .star:nth-child(25) {
+  width: 4.8px;
+  height: 4.8px;
+  position: absolute;
+  left: 546px;
+  top: -10px;
+  background-color: #8e0c0f;
+  opacity: 0;
+  -webkit-animation: gogo 15s ease-out 1s infinite;
+          animation: gogo 15s ease-out 1s infinite;
+}
+
+@keyframes gogo {
+  0% {
+    opacity: 0.4;
+  }
+  100% {
+    opacity: 0.01;
+    -webkit-transform: translate(103px, 400px);
+            transform: translate(103px, 400px);
+  }
+}
+
+body .mooncard .star:nth-child(26) {
+  width: 1.2px;
+  height: 1.2px;
+  position: absolute;
+  left: 430px;
+  top: -10px;
+  background-color: #725f35;
+  opacity: 0;
+  -webkit-animation: gogo 20s ease-out 1s infinite;
+          animation: gogo 20s ease-out 1s infinite;
+}
+
+@keyframes gogo {
+  0% {
+    opacity: 0.4;
+  }
+  100% {
+    opacity: 0.01;
+    -webkit-transform: translate(232px, 400px);
+            transform: translate(232px, 400px);
+  }
+}
+
+body .mooncard .star:nth-child(27) {
+  width: 2.4px;
+  height: 2.4px;
+  position: absolute;
+  left: 271px;
+  top: -10px;
+  background-color: #88c7ec;
+  opacity: 0;
+  -webkit-animation: gogo 5s ease-out 4s infinite;
+          animation: gogo 5s ease-out 4s infinite;
+}
+
+@keyframes gogo {
+  0% {
+    opacity: 0.4;
+  }
+  100% {
+    opacity: 0.01;
+    -webkit-transform: translate(57px, 400px);
+            transform: translate(57px, 400px);
+  }
+}
+
+body .mooncard .star:nth-child(28) {
+  width: 1.2px;
+  height: 1.2px;
+  position: absolute;
+  left: 493px;
+  top: -10px;
+  background-color: #fef7d1;
+  opacity: 0;
+  -webkit-animation: gogo 15s ease-out 1s infinite;
+          animation: gogo 15s ease-out 1s infinite;
+}
+
+@keyframes gogo {
+  0% {
+    opacity: 0.4;
+  }
+  100% {
+    opacity: 0.01;
+    -webkit-transform: translate(85px, 400px);
+            transform: translate(85px, 400px);
+  }
+}
+
+body .mooncard .star:nth-child(29) {
+  width: 1.2px;
+  height: 1.2px;
+  position: absolute;
+  left: 353px;
+  top: -10px;
+  background-color: #0938e4;
+  opacity: 0;
+  -webkit-animation: gogo 15s ease-out 4s infinite;
+          animation: gogo 15s ease-out 4s infinite;
+}
+
+@keyframes gogo {
+  0% {
+    opacity: 0.4;
+  }
+  100% {
+    opacity: 0.01;
+    -webkit-transform: translate(63px, 400px);
+            transform: translate(63px, 400px);
+  }
+}
+
+body .mooncard .star:nth-child(30) {
+  width: 1.2px;
+  height: 1.2px;
+  position: absolute;
+  left: 538px;
+  top: -10px;
+  background-color: #3a2584;
+  opacity: 0;
+  -webkit-animation: gogo 15s ease-out 1s infinite;
+          animation: gogo 15s ease-out 1s infinite;
+}
+
+@keyframes gogo {
+  0% {
+    opacity: 0.4;
+  }
+  100% {
+    opacity: 0.01;
+    -webkit-transform: translate(93px, 400px);
+            transform: translate(93px, 400px);
+  }
+}
+
+body .mooncard .star:nth-child(31) {
+  width: 1.2px;
+  height: 1.2px;
+  position: absolute;
+  left: 35px;
+  top: -10px;
+  background-color: #aaad71;
+  opacity: 0;
+  -webkit-animation: gogo 25s ease-out 3s infinite;
+          animation: gogo 25s ease-out 3s infinite;
+}
+
+@keyframes gogo {
+  0% {
+    opacity: 0.4;
+  }
+  100% {
+    opacity: 0.01;
+    -webkit-transform: translate(153px, 400px);
+            transform: translate(153px, 400px);
+  }
+}
+
+body .mooncard .star:nth-child(32) {
+  width: 4.8px;
+  height: 4.8px;
+  position: absolute;
+  left: 510px;
+  top: -10px;
+  background-color: #e761f6;
+  opacity: 0;
+  -webkit-animation: gogo 20s ease-out 5s infinite;
+          animation: gogo 20s ease-out 5s infinite;
+}
+
+@keyframes gogo {
+  0% {
+    opacity: 0.4;
+  }
+  100% {
+    opacity: 0.01;
+    -webkit-transform: translate(37px, 400px);
+            transform: translate(37px, 400px);
+  }
+}
+
+body .mooncard .star:nth-child(33) {
+  width: 2.4px;
+  height: 2.4px;
+  position: absolute;
+  left: 51px;
+  top: -10px;
+  background-color: #a54da0;
+  opacity: 0;
+  -webkit-animation: gogo 5s ease-out 3s infinite;
+          animation: gogo 5s ease-out 3s infinite;
+}
+
+@keyframes gogo {
+  0% {
+    opacity: 0.4;
+  }
+  100% {
+    opacity: 0.01;
+    -webkit-transform: translate(189px, 400px);
+            transform: translate(189px, 400px);
+  }
+}
+
+body .mooncard .star:nth-child(34) {
+  width: 4.8px;
+  height: 4.8px;
+  position: absolute;
+  left: 46px;
+  top: -10px;
+  background-color: #8da568;
+  opacity: 0;
+  -webkit-animation: gogo 15s ease-out 5s infinite;
+          animation: gogo 15s ease-out 5s infinite;
+}
+
+@keyframes gogo {
+  0% {
+    opacity: 0.4;
+  }
+  100% {
+    opacity: 0.01;
+    -webkit-transform: translate(20px, 400px);
+            transform: translate(20px, 400px);
+  }
+}
+
+body .mooncard .star:nth-child(35) {
+  width: 2.4px;
+  height: 2.4px;
+  position: absolute;
+  left: 22px;
+  top: -10px;
+  background-color: #f4bd9e;
+  opacity: 0;
+  -webkit-animation: gogo 25s ease-out 4s infinite;
+          animation: gogo 25s ease-out 4s infinite;
+}
+
+@keyframes gogo {
+  0% {
+    opacity: 0.4;
+  }
+  100% {
+    opacity: 0.01;
+    -webkit-transform: translate(170px, 400px);
+            transform: translate(170px, 400px);
+  }
+}
+
+body .mooncard .star:nth-child(36) {
+  width: 3.6px;
+  height: 3.6px;
+  position: absolute;
+  left: 610px;
+  top: -10px;
+  background-color: #d80a7d;
+  opacity: 0;
+  -webkit-animation: gogo 10s ease-out 3s infinite;
+          animation: gogo 10s ease-out 3s infinite;
+}
+
+@keyframes gogo {
+  0% {
+    opacity: 0.4;
+  }
+  100% {
+    opacity: 0.01;
+    -webkit-transform: translate(61px, 400px);
+            transform: translate(61px, 400px);
+  }
+}
+
+body .mooncard .star:nth-child(37) {
+  width: 2.4px;
+  height: 2.4px;
+  position: absolute;
+  left: 582px;
+  top: -10px;
+  background-color: #246769;
+  opacity: 0;
+  -webkit-animation: gogo 10s ease-out 1s infinite;
+          animation: gogo 10s ease-out 1s infinite;
+}
+
+@keyframes gogo {
+  0% {
+    opacity: 0.4;
+  }
+  100% {
+    opacity: 0.01;
+    -webkit-transform: translate(72px, 400px);
+            transform: translate(72px, 400px);
+  }
+}
+
+body .mooncard .star:nth-child(38) {
+  width: 3.6px;
+  height: 3.6px;
+  position: absolute;
+  left: 325px;
+  top: -10px;
+  background-color: #a3be02;
+  opacity: 0;
+  -webkit-animation: gogo 20s ease-out 2s infinite;
+          animation: gogo 20s ease-out 2s infinite;
+}
+
+@keyframes gogo {
+  0% {
+    opacity: 0.4;
+  }
+  100% {
+    opacity: 0.01;
+    -webkit-transform: translate(15px, 400px);
+            transform: translate(15px, 400px);
+  }
+}
+
+body .mooncard .star:nth-child(39) {
+  width: 4.8px;
+  height: 4.8px;
+  position: absolute;
+  left: 545px;
+  top: -10px;
+  background-color: #2ac363;
+  opacity: 0;
+  -webkit-animation: gogo 5s ease-out 4s infinite;
+          animation: gogo 5s ease-out 4s infinite;
+}
+
+@keyframes gogo {
+  0% {
+    opacity: 0.4;
+  }
+  100% {
+    opacity: 0.01;
+    -webkit-transform: translate(147px, 400px);
+            transform: translate(147px, 400px);
+  }
+}
+
+body .mooncard .star:nth-child(40) {
+  width: 3.6px;
+  height: 3.6px;
+  position: absolute;
+  left: 64px;
+  top: -10px;
+  background-color: #151901;
+  opacity: 0;
+  -webkit-animation: gogo 10s ease-out 4s infinite;
+          animation: gogo 10s ease-out 4s infinite;
+}
+/*# sourceMappingURL=stars-練習-2.css.map */
